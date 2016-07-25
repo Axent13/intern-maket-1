@@ -1,0 +1,27 @@
+.left-part {
+    width: 40%;
+    float: left;
+}
+.right-part {
+    width: 60%;
+    float: left;
+}
+div {
+    display: block;
+    border: 1px dashed #3a768f;
+}
+
+.logo-circle {
+    margin: 88px 166px;
+    width: 255px;
+    height: 255px;
+    border: 1px solid #91abd2;
+    border-radius: 255px;
+}
+.logo-round {
+    margin: 0.95em;
+    width: 13.9em;
+    height: 13.9em;
+    background-color: #91abd2;
+    border-radius: 13.9em;
+}
