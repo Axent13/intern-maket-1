@@ -12,7 +12,9 @@ div {
     display: block;
     border: 1px dashed #3a768f;
 }
-
+.logo {
+    margin-bottom: 75px;
+}
 .logo-circle {
     margin: 88px 108px 28px 108px;
     width: 255px;
@@ -53,4 +55,40 @@ h3 {
     padding: 0px;
     margin-top: 0px;
     margin-left: 39px;
+}
+.header-table {
+    display: table;
+    width: 100%;
+}
+.left-cell {
+    display: table-cell;
+    width: 81px;
+    padding-top:5px;
+}
+.middle-cell {
+    display: table-cell;
+    width: auto;
+    vertical-align: middle;
+    padding: 0px 6px;
+
+}
+.right-cell {
+    display: table-cell;
+    width: 100%; /*Чтобы линия растягивалась на всю оставшуюся ширину*/
+    vertical-align: middle;
+}
+.header-icon {
+    width: 81px;
+}
+.header-name {
+    color: #3d6cb0;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+.header-line {
+    background-color: #3d6cb0;
+    height: 6px;
+    box-sizing: border-box;
 }
