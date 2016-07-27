@@ -95,7 +95,7 @@ h4 {
 }
 .right-part .header-table-right-cell {
     display: table-cell;
-    width: 344px;
+    min-width: 343px;
     vertical-align: middle;
 }
 .profile-icon {
@@ -195,7 +195,7 @@ li.off {
     display: table;
     width: 100%;
 }
-.table-upper {
+.table-education-upper {
     margin-top: 20px;
     display: table;
     width: 100%;
@@ -231,4 +231,31 @@ li.off {
 }
 .padding-left {
     padding-left: 56px;
+}
+.company-name {
+    text-transform: uppercase;
+    font-size: 29px;
+    color: black;
+    letter-spacing: 0px;
+}
+.working-period {
+    font-size: 29px;
+    padding-left: 10px;
+    letter-spacing: 0px;
+}
+.your-job-here {
+    font-size: 29px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.right.block {
+    margin-bottom: 49px;
+}
+.experience {
+    letter-spacing: -1px;
+}
+.table-experience-upper {
+    margin-top: 34px;
+    display: table;
+    width: 100%;
 }
