@@ -5,19 +5,18 @@
 }
 .right-part {
     width: 52%;
-    margin-left: 85px;
+    margin-left: 88px;
     margin-top: 69px;
     float: left;
 }
 div {
     display: block;
-    border: 1px dashed #3a768f;
 }
 .block {
-    margin-bottom: 62px;
+    margin-bottom: 40px;
 }
 .logo {
-    margin-bottom: 75px;
+    margin-bottom: 79px;
 }
 .logo-circle {
     margin: 88px 108px 28px 108px;
@@ -27,7 +26,7 @@ div {
     border-radius: 255px;
 }
 .logo-round {
-    margin: 0.95em;
+    margin: 1.1em;
     width: 13.9em;
     height: 13.9em;
     background-color: #91abd2;
@@ -42,6 +41,7 @@ h2 {
     letter-spacing: 3px;
     margin: 0px;
     padding: 0px;
+    margin-bottom: 2px;
 }
 h1 {
     text-transform: uppercase;
@@ -124,9 +124,10 @@ h4 {
 p.simple-text {
     color: black;
     font-size: 16px;
-    padding-top: 7px;
+    padding-top: 5px;
     letter-spacing: 0px;
     margin: 0px;
+    line-height: 23px;
 }
 .contact-icon {
     width: 81px;
@@ -141,7 +142,7 @@ p.simple-text {
 .contact-table-left-cell {
     display: table-cell;
     width: 30%;
-    padding-top:  28px;
+    padding-top: 30px;
     color: #3d6cb0;
     text-transform: uppercase;
     font-size: 22px;
@@ -150,8 +151,17 @@ p.simple-text {
     display: table-cell;
     font-size: 24px;
 }
+.skills {
+    margin-top: 49px;
+}
+.skills-name {
+    margin-right: 8px;
+}
 .skills-icon {
     width: 81px;
+}
+.h4-with-margin-top {
+    margin-top: 20px;
 }
 ul {
     margin-top: 13px;
@@ -191,12 +201,12 @@ li.off {
     margin-left: 11px;
 }
 .table {
-    margin-top: 9px;
+    margin-top: 14px;
     display: table;
     width: 100%;
 }
 .table-education-upper {
-    margin-top: 20px;
+    margin-top: 27px;
     display: table;
     width: 100%;
 }
@@ -232,6 +242,12 @@ li.off {
 .padding-left {
     padding-left: 56px;
 }
+p.simple-text-in-education,
+p.simple-text-in-experience{
+    line-height: 20px;
+    padding-top: 4px;
+    margin-bottom: 0px;
+}
 .company-name {
     text-transform: uppercase;
     font-size: 29px;
@@ -255,7 +271,7 @@ li.off {
     letter-spacing: -1px;
 }
 .table-experience-upper {
-    margin-top: 34px;
+    margin-top: 39px;
     display: table;
     width: 100%;
 }
@@ -266,7 +282,7 @@ li.off {
     padding-right: 15px;
 }
 .software.right.block {
-    margin-top: 52px;
+    margin-top: 54px;
 }
 .left-software,
 .right-software {
