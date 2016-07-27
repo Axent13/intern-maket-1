@@ -4,8 +4,9 @@
     float: left;
 }
 .right-part {
-    width: 55%;
+    width: 52%;
     margin-left: 85px;
+    margin-top: 69px;
     float: left;
 }
 div {
@@ -92,6 +93,11 @@ h4 {
     width: 100%; /*Чтобы линия растягивалась на всю оставшуюся ширину*/
     vertical-align: middle;
 }
+.right-part .header-table-right-cell {
+    display: table-cell;
+    width: 344px;
+    vertical-align: middle;
+}
 .profile-icon {
     width: 81px;
 }
@@ -107,7 +113,14 @@ h4 {
     height: 6px;
     box-sizing: border-box;
 }
-
+.right-part .header-name {
+    color: #3d6cb0;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+}
 p.simple-text {
     color: black;
     font-size: 16px;
@@ -148,14 +161,74 @@ li {
     width: 18px;
     height: 18px;
     border-radius: 18px;
-    list-style: none;
-    display: inline-block;
     padding-right: 0px;
     margin-right: 8px;
 }
 li.on {
+    list-style: none;
+    display: inline-block;
     background-color: #3d6cb0;
 }
 li.off {
+    list-style: none;
+    display: inline-block;
     background-color: #e6e6e6;
+}
+/*li.black {
+    width: 23px;
+    height: 23px;
+    list-style: none;
+    display: inline-block;
+    background-color: black;
+    margin-left: 10px;
+}*/
+.black-circle {
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: black;
+    margin-left: 11px;
+}
+.table {
+    margin-top: 9px;
+    display: table;
+    width: 100%;
+}
+.table-upper {
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+}
+.table-row {
+    display: table-row;
+}
+.table-left-cell {
+    display: table-cell;
+    padding-top: 0px;
+    width: 8%;
+
+    vertical-align: middle;
+}
+.table-right-cell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+.master-degree {
+    text-transform: uppercase;
+    font-size: 29px;
+    color: #3d6cb0;
+}
+.education-period {
+    font-size: 29px;
+    padding-left: 10px;
+}
+.university-name {
+    font-size: 29px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.padding-left {
+    padding-left: 56px;
 }
