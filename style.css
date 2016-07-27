@@ -59,6 +59,18 @@ h3 {
     margin-top: 0px;
     margin-left: 39px;
 }
+h4 {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+.center {
+    text-align: center;
+}
+
 .header-table {
     display: table;
     width: 100%;
@@ -124,4 +136,26 @@ p.simple-text {
 .contact-table-right-cell {
     display: table-cell;
     font-size: 24px;
+}
+.skills-icon {
+    width: 81px;
+}
+ul {
+    margin-top: 13px;
+    padding-left: 0px;
+}
+li {
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    list-style: none;
+    display: inline-block;
+    padding-right: 0px;
+    margin-right: 8px;
+}
+li.on {
+    background-color: #3d6cb0;
+}
+li.off {
+    background-color: #e6e6e6;
 }
