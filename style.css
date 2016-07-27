@@ -1,13 +1,16 @@
+html {
+    font-size: 16px;
+}
 .left-part {
-    width: 34%;
-    margin-left: 59px;
+    width: 28.8rem;
     float: left;
+    margin-left: 4.4%;
 }
 .right-part {
-    width: 52%;
-    margin-left: 88px;
+    width: 40em;
     margin-top: 69px;
-    float: left;
+    float: right;
+    margin-right: 7%;
 }
 div {
     display: block;
