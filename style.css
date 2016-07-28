@@ -81,7 +81,7 @@ h4 {
 }
 .header-table-left-cell {
     display: table-cell;
-    width: 81px;
+    width: 83px;
     padding-top:5px;
 }
 .header-table-middle-cell {
@@ -101,9 +101,50 @@ h4 {
     min-width: 343px;
     vertical-align: middle;
 }
-.profile-icon {
-    width: 81px;
+/***************************************/
+/************** СПРАЙТЫ ****************/
+.profile-icon, .contact-icon, .skills-icon, .education-icon, .experience-icon, .software-icon{
+    background: url(img/sprites.png) no-repeat;
 }
+
+.profile-icon{
+    background-position: 0 0;
+    width: 82px;
+    height: 79px;
+}
+
+.contact-icon{
+    background-position: -100px 0;
+    width: 79px;
+    height: 79px;
+}
+
+.skills-icon{
+    background-position: -200px 0;
+    width: 79px;
+    height: 79px;
+}
+
+.education-icon{
+    background-position: -300px 0;
+    width: 82px;
+    height: 80px;
+}
+
+.experience-icon{
+    background-position: -400px 0;
+    width: 85px;
+    height: 83px;
+}
+
+.software-icon{
+    background-position: -500px 0;
+    width: 82px;
+    height: 80px;
+}
+/********* КОНЕЦ СПРАЙТОВ **********/
+/***********************************/
+
 .header-name {
     color: #3d6cb0;
     font-size: 46px;
@@ -131,9 +172,6 @@ p.simple-text {
     letter-spacing: 0px;
     margin: 0px;
     line-height: 23px;
-}
-.contact-icon {
-    width: 81px;
 }
 .contact-table {
     display: table;
