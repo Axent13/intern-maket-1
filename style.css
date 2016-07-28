@@ -74,28 +74,6 @@ h4 {
 .center {
     text-align: center;
 }
-
-.header-table {
-    display: table;
-    width: 100%;
-}
-.header-table-left-cell {
-    display: table-cell;
-    width: 83px;
-    padding-top:5px;
-}
-.header-table-middle-cell {
-    display: table-cell;
-    width: auto;
-    vertical-align: middle;
-    padding: 0px 6px;
-
-}
-.header-table-right-cell {  /* TODO молодец, что сделал выравнивание динамическое через таблицы, хотя это не лучшее решение тут :) */
-    display: table-cell;  /* TODO Я бы предпочел inline-block */
-    width: 100%; /*Чтобы линия растягивалась на всю оставшуюся ширину*/
-    vertical-align: middle;
-}
 .section-with-education-experience-sofware .header-table-right-cell {
     display: table-cell;
     min-width: 343px;
@@ -105,6 +83,7 @@ h4 {
 /************** СПРАЙТЫ ****************/
 .profile-icon, .contact-icon, .skills-icon, .education-icon, .experience-icon, .software-icon{
     background: url(img/sprites.png) no-repeat;
+    display: inline-block;
 }
 
 .profile-icon{
@@ -145,17 +124,24 @@ h4 {
 /********* КОНЕЦ СПРАЙТОВ **********/
 /***********************************/
 
+.header-part {
+    vertical-align: middle;
+}
 .header-name {
     color: #3d6cb0;
     font-size: 46px;
     text-transform: uppercase;
-    margin: 0px;
+    margin-top: 0px;
     padding: 0px;
+    display: inline-block;
 }
 .header-line {
     background-color: #3d6cb0;
     height: 6px;
     box-sizing: border-box;
+    display: inline-block;
+    margin-top: 8px;
+    min-width: 40.7%;
 }
 .section-with-education-experience-sofware .header-name {
     color: #3d6cb0;
