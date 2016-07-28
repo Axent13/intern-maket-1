@@ -63,17 +63,7 @@ div {
     margin: 0px;
     padding: 0px;
 }
-h4 {
-    text-transform: uppercase;
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin: 0px;
-    padding: 0px;
-    font-weight: normal;
-}
-.center {
-    text-align: center;
-}
+
 .section-with-education-experience-sofware .header-table-right-cell {
     display: table-cell;
     min-width: 343px;
@@ -181,14 +171,22 @@ p.simple-text {
 .skills {
     margin-top: 49px;
 }
-.skills-name {
-    margin-right: 8px;
-}
 .skills-icon {
     width: 81px;
 }
-.h4-with-margin-top {
+.creative-block {
     margin-top: 20px;
+}
+.creative-block, .teamwork-block, .innovate-block, .communication-block {
+    text-align: center;
+}
+.skill-name {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
 }
 ul {
     margin-top: 13px;
