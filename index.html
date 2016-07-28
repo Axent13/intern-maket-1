@@ -7,18 +7,18 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<section class="left-part">
-		<div class="logo left">
+		<section class="left-part">  <!-- TODO не называй классы и айди от их стиля - иди от содержания это колонки, а не того, что она слева -->
+		<div class="logo left">  <!-- TODO нет отступа, хотя этот блок внутри <section class="left-part"> находится -->
 			<div class="logo-circle"><div class="logo-round"></div></div>
 			<div class="name-surname">
-				<h2 class="light">Name here</h2>
+				<h2 class="light">Name here</h2>  <!-- TODO то же самое про имена - иди от содержания элемента а не того, что это тонкий шрифт -->
 				<h1 class="bold">Surname</h1>
 				<h3 class="bold">Graphic designer</h3>
 			</div>
 		</div>
 		<div class="profile left block">
 			<header class="header-table">
-                	<div class="header-table-left-cell"><img src="img/profile_icon.png" class="profile-icon" alt="Profile" /></div>
+                	<div class="header-table-left-cell"><img src="img/profile_icon.png" class="profile-icon" alt="Profile" /></div>  <!-- TODO все иконки объедини в спрайты, это хорошая практика -->
 					<div class="header-table-middle-cell"><p class="header-name bold">Profile</p></div>
 					<div class="header-table-right-cell"><hr class="header-line" /></div>
 			</header>
@@ -29,7 +29,7 @@
                     porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
                     laoreet. Quisque rutrum. </span></p>
 		</div>
-		<div class="contact left block">
+		<div class="contact left block">  <!-- TODO где-то отсупы пробелами, где-то табами, перейди везде на пробелы -->
                 <header class="header-table">
                     <div class="header-table-left-cell"><img src="img/contact_icon.png" class="contact-icon" alt="Contact" /></div>
                     <div class="header-table-middle-cell"><p class="header-name bold">Contact</p></div>
@@ -60,7 +60,7 @@
 				<div class="header-table-middle-cell"><p class="header-name skills-name bold">Skills</p></div>
 				<div class="header-table-right-cell"><hr class="header-line" /></div>
 			</header>
-			<h4 class="regular h4-with-margin-top center">Creative</h4>
+			<h4 class="regular h4-with-margin-top center">Creative</h4>  <!-- TODO объединить блоки каждого скилла -->
 			<ul class="center">
 				<li class="on"></li>
 				<li class="on"></li>
@@ -180,7 +180,7 @@
 				<div class="header-table-middle-cell"><p class="header-name bold experience-title">Experience</p></div>
 				<div class="header-table-right-cell"><hr class="header-line" /></div>
 			</header>
-			<div class="table-experience-upper">
+			<div class="table-experience-upper">  <!-- TODO здесь можно было бы сделать через <ul> и вложенные <li>, тогда бы и black-circle автоматически бы появлялся :) и семантически это более грамотно было бы -->
 				<div class="table-row">
 					<div class="table-left-cell"><div class="black-circle"></div></div>
 					<div class="table-right-cell">
@@ -221,8 +221,8 @@
 				<div class="header-table-right-cell"><hr class="header-line" /></div>
 			</header>
 			<div class="left-software">
-				<p class="software-name regular">Photoshop</p>
-				<div class="blueline bl-1"></div>
+				<p class="software-name regular">Photoshop</p>  <!-- TODO объединить блоки каждого скилла -->
+				<div class="blueline bl-1"></div>  <!-- TODO переименуй bl-1 и далее в нормальные классы -->
 				<div class="grayline gl-1"></div>
 				<p class="software-name regular">Illustrator</p>
 				<div class="blueline bl-2"></div>

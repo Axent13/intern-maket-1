@@ -35,10 +35,10 @@ div {
     background-color: #91abd2;
     border-radius: 13.9em;
 }
-.name-surname {
+.name-surname {  /* TODO не делай фиксированные отсупы, чтобы выравнивать элементы, используй динамические свойства, наподобие text-align */
     margin-left: 82px;
 }
-h2 {
+h2 {  /* TODO не используй селекторы по тегам, всегда только по классам. И по айди тоже не используй, только классы */
     text-transform: uppercase;
     font-size: 54px;
     letter-spacing: 3px;
@@ -91,8 +91,8 @@ h4 {
     padding: 0px 6px;
 
 }
-.header-table-right-cell {
-    display: table-cell;
+.header-table-right-cell {  /* TODO молодец, что сделал выравнивание динамическое через таблицы, хотя это не лучшее решение тут :) */
+    display: table-cell;  /* TODO Я бы предпочел inline-block */
     width: 100%; /*Чтобы линия растягивалась на всю оставшуюся ширину*/
     vertical-align: middle;
 }
@@ -122,7 +122,7 @@ h4 {
     text-transform: uppercase;
     margin: 0px;
     padding: 0px;
-    padding-left: 10px;
+    padding-left: 10px;  /*TODO объедини свойства паддинга в одно*/
 }
 p.simple-text {
     color: black;
@@ -360,7 +360,7 @@ p.simple-text-in-experience{
     margin-left: -5px;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) { /* TODO есть хорошая практика все @media писать отдельно для каждого элемента и сразу после стилей этого элемента. То есть все стили что тут внутри надо раскидать по файлу рядом с соответствующими свойствами */
     .left-part {
         width: 42.5rem;
         float: none;
