@@ -36,18 +36,19 @@ div {
     background-color: #91abd2;
     border-radius: 13.9em;
 }
-.name-surname { 
+.name-surname {
     text-align: center;
 }
-h2 {  /* TODO не используй селекторы по тегам, всегда только по классам. И по айди тоже не используй, только классы */
+.name {
     text-transform: uppercase;
     font-size: 54px;
     letter-spacing: 3px;
     margin: 0px;
     padding: 0px;
     margin-bottom: 2px;
+    margin-left: 2px;
 }
-h1 {
+.surname {
     text-transform: uppercase;
     font-size: 65px;
     letter-spacing: 2px;
@@ -55,7 +56,7 @@ h1 {
     padding: 0px;
     margin-top: -19px;
 }
-h3 {
+.job {
     text-transform: uppercase;
     font-size: 26px;
     letter-spacing: 0px;
@@ -377,7 +378,7 @@ p.simple-text-in-experience{
         margin: 0px;
         text-align: center;
     }
-    h3 {
+    .job {
         margin: 0px;
     }
     .contact-table {
