@@ -23,7 +23,7 @@ div {
     padding-left: 19px;
 }
 .logo-circle {
-    margin: 20px auto;
+    margin: 20px auto 28px auto;
     width: 256px;
     height: 254px;
     border: 1px solid #91abd2;
@@ -36,8 +36,8 @@ div {
     background-color: #91abd2;
     border-radius: 13.9em;
 }
-.name-surname {  /* TODO не делай фиксированные отсупы, чтобы выравнивать элементы, используй динамические свойства, наподобие text-align */
-    margin-left: 82px;
+.name-surname { 
+    text-align: center;
 }
 h2 {  /* TODO не используй селекторы по тегам, всегда только по классам. И по айди тоже не используй, только классы */
     text-transform: uppercase;
@@ -61,8 +61,6 @@ h3 {
     letter-spacing: 0px;
     margin: 0px;
     padding: 0px;
-    margin-top: 0px;
-    margin-left: 39px;
 }
 h4 {
     text-transform: uppercase;
