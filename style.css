@@ -2,7 +2,8 @@ html {
     font-size: 16px;
 }
 .section-with-logo-profile-contact-skills {
-    width: 28.8rem;
+    width: 34.11%;
+    margin-top: 69px;
     float: left;
     margin-left: 4.4%;
 }
@@ -19,12 +20,12 @@ div {
     margin-bottom: 40px;
 }
 .logo {
-    margin-bottom: 79px;
+    padding-left: 19px;
 }
 .logo-circle {
-    margin: 88px 108px 28px 108px;
-    width: 255px;
-    height: 255px;
+    margin: 20px auto;
+    width: 256px;
+    height: 254px;
     border: 1px solid #91abd2;
     border-radius: 255px;
 }
