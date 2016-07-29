@@ -311,6 +311,14 @@ p.simple-text-in-experience{
 .software.right.block {
     margin-top: 54px;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.software-level {
+    display: inline-block;
+}
 .left-software,
 .right-software {
     float: left;
