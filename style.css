@@ -188,11 +188,11 @@ p.simple-text {
     padding: 0px;
     font-weight: normal;
 }
-ul {
+ul.skill-points {
     margin-top: 13px;
     padding-left: 0px;
 }
-li {
+li.point {
     width: 18px;
     height: 18px;
     border-radius: 18px;
@@ -209,21 +209,27 @@ li.off {
     display: inline-block;
     background-color: #e6e6e6;
 }
-/*li.black {
-    width: 23px;
-    height: 23px;
-    list-style: none;
-    display: inline-block;
-    background-color: black;
-    margin-left: 10px;
-}*/
-.black-circle {
-    border-radius: 20px;
-    width: 20px;
-    height: 20px;
-    display: block;
-    background-color: black;
-    margin-left: 11px;
+
+li.black-circle {
+    font-size: 73px;
+    margin-left: 0;
+    list-style-position: inside;
+    margin-top: -13px;
+
+}
+.black-circle-upper {
+    font-size: 73px;
+    margin-left: 0;
+    list-style-position: inside;
+    margin-top: -8px;
+}
+ul.list-of-experience {
+    padding-left: 15px;
+    margin-top: 24px;
+}
+ul.list-of-education {
+    padding-left: 15px;
+    margin-top: 10px;
 }
 .table {
     margin-top: 14px;
@@ -250,44 +256,40 @@ li.off {
     width: 100%;
     vertical-align: middle;
 }
-.master-degree {
-    text-transform: uppercase;
-    font-size: 29px;
-    color: #3d6cb0;
-}
-.education-period {
-    font-size: 29px;
-    padding-left: 10px;
-}
-.university-name {
-    font-size: 29px;
-    text-transform: uppercase;
-    margin-top: 0px;
-}
-.padding-left {
-    padding-left: 56px;
-}
 p.simple-text-in-education,
 p.simple-text-in-experience{
     line-height: 20px;
-    padding-top: 4px;
+    padding: 4px 0px 0px 46px;
     margin-bottom: 0px;
 }
-.company-name {
+.company-name, .master-degree {
     text-transform: uppercase;
     font-size: 29px;
-    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 12px;
     letter-spacing: 0px;
+    margin-left: -20px;
 }
-.working-period {
+.master-degree {
+    color: #3d6cb0;
+}
+.company-name {
+    color: black;
+}
+.working-period, .education-period {
     font-size: 29px;
     padding-left: 10px;
     letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 12px;
 }
-.your-job-here {
+.your-job-here, .university-name {
     font-size: 29px;
     text-transform: uppercase;
-    margin-top: 0px;
+    margin-top: -22px;
+    padding-left: 43px;
 }
 .right.block {
     margin-bottom: 49px;
