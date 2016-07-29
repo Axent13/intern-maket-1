@@ -5,13 +5,13 @@ html {
     width: 34.11%;
     margin-top: 69px;
     float: left;
-    margin-left: 4.4%;
+    margin-left: 59px;
 }
-.section-with-education-experience-sofware {
-    width: 42.5rem;
-    margin-top: 69px;
-    float: right;
-    margin-right: 4%;
+.section-with-education-experience-software {
+    width: 53%;
+    margin-top: 75px;
+    float: left;
+    margin-left: 84px;
 }
 @media only screen and (max-width: 1280px) {
     .section-with-logo-profile-contact-skills {
@@ -20,28 +20,30 @@ html {
         margin: 0 auto;
     }
 
-    .section-with-education-experience-sofware {
+    .section-with-education-experience-software {
         width: 42.5rem;
         float: none;
         margin: 0 auto;
     }
 }
-
 div {
     display: block;
 }
-.block {
-    margin-bottom: 40px;
-}
 .logo {
     padding-left: 19px;
+    margin-bottom: 85px;
+}
+@media only screen and (max-width: 1280px) {
+    .logo {
+        margin-bottom: 10px;
+    }
 }
 .logo-circle {
-    margin: 20px auto 28px auto;
-    width: 256px;
-    height: 254px;
+    margin: 20px auto 31px auto;
+    width: 254px;
+    height: 253px;
     border: 1px solid #91abd2;
-    border-radius: 255px;
+    border-radius: 253px;
 }
 @media only screen and (max-width: 1280px) {
     .logo-circle {
@@ -49,11 +51,11 @@ div {
     }
 }
 .logo-round {
-    margin: 1.1em;
-    width: 13.9em;
-    height: 13.9em;
+    margin: 15px;
+    width: 222px;
+    height: 222px;
     background-color: #91abd2;
-    border-radius: 13.9em;
+    border-radius: 222px;
 }
 
 .name-surname {
@@ -79,11 +81,16 @@ div {
     margin: -19px 0;
     padding: 0;
 }
+@media only screen and (max-width: 1280px) {
+    .surname {
+        margin: -17px auto  15px auto;
+    }
+}
 .job {
     text-transform: uppercase;
     font-size: 26px;
     letter-spacing: 0;
-    margin: 0;
+    margin: 19px 0;
     padding: 0;
 }
 @media only screen and (max-width: 1280px) {
@@ -92,7 +99,7 @@ div {
     }
 }
 
-.section-with-education-experience-sofware .header-table-right-cell {
+.section-with-education-experience-software .header-table-right-cell {
     display: table-cell;
     min-width: 343px;
     vertical-align: middle;
@@ -142,26 +149,97 @@ div {
 /********* КОНЕЦ СПРАЙТОВ **********/
 /***********************************/
 
+.profile {
+    margin-bottom: 51px;
+}
 .header-part {
     vertical-align: middle;
 }
-.header-name {
+.header-name-profile, .header-name-contact, .header-name-skills, .header-name-education, .header-name-experience, .header-name-software {
     color: #3d6cb0;
     font-size: 46px;
     text-transform: uppercase;
-    margin-top: 0;
-    padding: 0;
+    margin-top: -7px;
     display: inline-block;
 }
-.header-line {
+.header-name-profile {
+    padding-left: 5px;
+}
+.header-name-contact {
+    padding-left: 8px;
+}
+.header-name-skills {
+    padding-left: 4px;
+}
+.header-name-education {
+    padding-left: 16px;
+}
+.header-name-experience {
+    padding-left: 14px;
+    margin-top: 0;
+}
+.header-name-software {
+    padding-left: 17px;
+    margin-top: 0;
+}
+.header-line-profile, .header-line-contact, .header-line-skills, .header-line-education, .header-line-experience, .header-line-software {
     background-color: #3d6cb0;
     height: 6px;
     box-sizing: border-box;
     display: inline-block;
-    margin-top: 8px;
-    min-width: 40.7%;
+    margin-top: 6px;
 }
-.section-with-education-experience-sofware .header-name {
+.header-line-profile {
+    width: 185px;
+    margin-left: 2px;
+}
+.header-line-contact {
+    width: 162px;
+    margin-left: 3px;
+}
+.header-line-skills {
+    width: 213px;
+    margin-left: 8px;
+}
+.header-line-education {
+    width: 344px;
+    margin-left: 3px;
+}
+.header-line-experience {
+    width: 342px;
+    margin: 3px 0 0 -6px;
+}
+.header-line-software {
+    width: 344px;
+    margin: 5px 0 0 18px;
+}
+@media only screen and (max-width: 1280px) {
+    .header-line-profile {
+        width: 412px;
+        margin-left: 2px;
+    }
+    .header-line-contact {
+        width: 389px;
+        margin-left: 3px;
+    }
+    .header-line-skills {
+        width: 442px;
+        margin-left: 8px;
+    }
+    .header-line-education {
+        width: 328px;
+        margin-left: 3px;
+    }
+    .header-line-experience {
+        width: 324px;
+        margin: 3px 0 0 0;
+    }
+    .header-line-software {
+        width: 346px;
+        margin: 5px 0 0 0;
+    }
+}
+.section-with-education-experience-software .header-name {
     color: #3d6cb0;
     font-size: 46px;
     text-transform: uppercase;
@@ -171,15 +249,20 @@ div {
 p.simple-text {
     color: black;
     font-size: 16px;
-    padding-top: 5px;
+    padding: 8px 0 0 1px;
     letter-spacing: 0;
     margin: 0;
-    line-height: 23px;
+    line-height: 22px;
+}
+.contact {
+    margin-bottom: 53px;
 }
 .contact-table {
     display: table;
-    width: 100%;
+    width: 470px;
+    margin-top: 1px;
 }
+
 @media only screen and (max-width: 1280px) {
     .contact-table {
         width: 60%;
@@ -192,7 +275,7 @@ p.simple-text {
 .contact-table-left-cell {
     display: table-cell;
     width: 30%;
-    padding-top: 30px;
+    padding-top: 32px;
     color: #3d6cb0;
     text-transform: uppercase;
     font-size: 22px;
@@ -207,13 +290,18 @@ p.simple-text {
     font-size: 24px;
 }
 .skills {
-    margin-top: 49px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 1280px) {
+    .skills {
+        margin-bottom: 60px;
+    }
 }
 .skills-icon {
     width: 81px;
 }
 .creative-block {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .creative-block, .teamwork-block, .innovate-block, .communication-block {
     text-align: center;
@@ -226,8 +314,8 @@ p.simple-text {
     padding: 0;
     font-weight: normal;
 }
-ul.skill-points {
-    margin-top: 13px;
+ul.skills-points {
+    margin: 11px 0 19px 0;
     padding-left: 0;
 }
 li.point {
@@ -247,7 +335,9 @@ li.off {
     display: inline-block;
     background-color: #e6e6e6;
 }
-
+.education {
+    margin-bottom: 55px;
+}
 li.black-circle {
     font-size: 73px;
     margin-left: 0;
@@ -262,12 +352,12 @@ li.black-circle {
     margin-top: -8px;
 }
 ul.list-of-experience {
-    padding-left: 15px;
+    padding-left: 14px;
     margin-top: 24px;
 }
 ul.list-of-education {
-    padding-left: 15px;
-    margin-top: 10px;
+    padding-left: 14px;
+    margin-top: 9px;
 }
 .table {
     margin-top: 14px;
@@ -297,7 +387,7 @@ ul.list-of-education {
 p.simple-text-in-education,
 p.simple-text-in-experience{
     line-height: 20px;
-    padding: 4px 0 0 46px;
+    padding: 5px 0 0 46px;
     margin-bottom: 0;
 }
 .company-name, .master-degree {
@@ -317,7 +407,7 @@ p.simple-text-in-experience{
 }
 .working-period, .education-period {
     font-size: 29px;
-    padding-left: 10px;
+    padding-left: 11px;
     letter-spacing: 0;
     display: inline-block;
     vertical-align: middle;
@@ -326,11 +416,11 @@ p.simple-text-in-experience{
 .your-job-here, .university-name {
     font-size: 29px;
     text-transform: uppercase;
-    margin-top: -22px;
+    margin-top: -23px;
     padding-left: 43px;
 }
-.right.block {
-    margin-bottom: 49px;
+.experience {
+    margin-bottom: 58px;
 }
 .experience-title {
     letter-spacing: -1px;
@@ -340,14 +430,11 @@ p.simple-text-in-experience{
     display: table;
     width: 100%;
 }
-.software-icon {
-    width: 81px;
-}
 .header-name.bold.software-title {
     padding-right: 15px;
 }
-.software.right.block {
-    margin-top: 54px;
+.clearfix {
+    margin-top: 8px;
 }
 .clearfix::after {
     content: "";
@@ -355,7 +442,7 @@ p.simple-text-in-experience{
     clear: both;
 }
 .software-level {
-    display: inline-block;
+
 }
 .left-software,
 .right-software {
@@ -370,7 +457,7 @@ p.simple-text-in-experience{
     font-size: 29px;
     text-transform: uppercase;
     margin-top: 19px;
-    margin-bottom: 12px;
+    margin-bottom: 11px;
 }
 .software-name.lesser-margin-top {
     margin-bottom: 7px;
@@ -378,8 +465,8 @@ p.simple-text-in-experience{
 .blueline,
 .grayline{
     display: inline-block;
-    height: 23px;
-    margin-bottom: 3px;
+    height: 25px;
+    margin-bottom: 0;
 }
 .blueline {
     background-color: #3d6cb0;
@@ -388,44 +475,88 @@ p.simple-text-in-experience{
     background-color: #e6e6e6;
 }
 .photoshop-blue-line {
-    width: 275px;
+    width: 280px;
 }
 .photoshop-gray-line {
-    width: 25px;
+    width: 27px;
     margin-left: -5px;
 }
 .illustrator-blue-line {
-    width: 212px;
+    width: 217px;
 }
 .illustrator-gray-line {
-    width: 88px;
+    width: 90px;
     margin-left: -5px;
 }
 .indesign-blue-line {
-    width: 170px;
+    width: 174px;
 }
 .indesign-gray-line {
-    width: 130px;
+    width: 133px;
     margin-left: -5px;
 }
 .dreamweaver-blue-line {
-    width: 252px;
+    width: 254px;
 }
 .dreamweaver-gray-line {
-    width: 48px;
+    width: 51px;
     margin-left: -5px;
 }
 .aftereffects-blue-line {
-    width: 189px;
+    width: 188px;
 }
 .aftereffects-gray-line {
-    width: 111px;
+    width: 117px;
     margin-left: -5px;
 }
 .htmlcss-blue-line {
-    width: 277px;
+    width: 278px;
 }
 .htmlcss-gray-line {
-    width: 23px;
+    width: 27px;
     margin-left: -5px;
+}
+@media only screen and (max-width: 1280px) {
+    .photoshop-blue-line {
+        width: 275px;
+    }
+    .photoshop-gray-line {
+        width: 25px;
+        margin-left: -5px;
+    }
+    .illustrator-blue-line {
+        width: 213px;
+    }
+    .illustrator-gray-line {
+        width: 87px;
+        margin-left: -5px;
+    }
+    .indesign-blue-line {
+        width: 171px;
+    }
+    .indesign-gray-line {
+        width: 129px;
+        margin-left: -5px;
+    }
+    .dreamweaver-blue-line {
+        width: 250px;
+    }
+    .dreamweaver-gray-line {
+        width: 50px;
+        margin-left: -5px;
+    }
+    .aftereffects-blue-line {
+        width: 185px;
+    }
+    .aftereffects-gray-line {
+        width: 115px;
+        margin-left: -5px;
+    }
+    .htmlcss-blue-line {
+        width: 275px;
+    }
+    .htmlcss-gray-line {
+        width: 25px;
+        margin-left: -5px;
+    }
 }
