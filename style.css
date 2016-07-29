@@ -349,45 +349,45 @@ p.simple-text-in-experience{
 .grayline {
     background-color: #e6e6e6;
 }
-.bl-1 {
+.photoshop-blue-line {
     width: 275px;
 }
-.gl-1 {
+.photoshop-gray-line {
     width: 25px;
     margin-left: -5px;
 }
-.bl-2 {
+.illustrator-blue-line {
     width: 212px;
 }
-.gl-2 {
+.illustrator-gray-line {
     width: 88px;
     margin-left: -5px;
 }
-.bl-3 {
+.idesign-blue-line {
     width: 170px;
 }
-.gl-3 {
+.indesign-gray-line {
     width: 130px;
     margin-left: -5px;
 }
-.bl-4 {
+.dreamweaver-blue-line {
     width: 252px;
 }
-.gl-4 {
+.dreamweaver-gray-line {
     width: 48px;
     margin-left: -5px;
 }
-.bl-5 {
+.aftereffects-blue-line {
     width: 189px;
 }
-.gl-5 {
+.aftereffects-gray-line {
     width: 111px;
     margin-left: -5px;
 }
-.bl-6 {
+.htmlcss-blue-line {
     width: 277px;
 }
-.gl-6 {
+.htmlcss-gray-line {
     width: 23px;
     margin-left: -5px;
 }
