@@ -13,6 +13,20 @@ html {
     float: right;
     margin-right: 4%;
 }
+@media only screen and (max-width: 1280px) {
+    .section-with-logo-profile-contact-skills {
+        width: 42.5rem;
+        float: none;
+        margin: 0px auto;
+    }
+
+    .section-with-education-experience-sofware {
+        width: 42.5rem;
+        float: none;
+        margin: 0px auto;
+    }
+}
+
 div {
     display: block;
 }
@@ -29,6 +43,11 @@ div {
     border: 1px solid #91abd2;
     border-radius: 255px;
 }
+@media only screen and (max-width: 1280px) {
+    .logo-circle {
+        margin: 0px auto;
+    }
+}
 .logo-round {
     margin: 1.1em;
     width: 13.9em;
@@ -36,8 +55,15 @@ div {
     background-color: #91abd2;
     border-radius: 13.9em;
 }
+
 .name-surname {
     text-align: center;
+}
+@media only screen and (max-width: 1280px) {
+    .name-surname {
+        margin: 0px;
+        text-align: center;
+    }
 }
 .name {
     text-transform: uppercase;
@@ -62,6 +88,11 @@ div {
     letter-spacing: 0px;
     margin: 0px;
     padding: 0px;
+}
+@media only screen and (max-width: 1280px) {
+    .job {
+        margin: 0px;
+    }
 }
 
 .section-with-education-experience-sofware .header-table-right-cell {
@@ -153,6 +184,12 @@ p.simple-text {
     display: table;
     width: 100%;
 }
+@media only screen and (max-width: 1280px) {
+    .contact-table {
+        width: 60%;
+        margin: 0px auto;
+    }
+}
 .contact-table-row {
     display: table-row;
 }
@@ -163,6 +200,11 @@ p.simple-text {
     color: #3d6cb0;
     text-transform: uppercase;
     font-size: 22px;
+}
+@media only screen and (max-width: 1280px) {
+    .contact-table-left-cell {
+        width: 50%;
+    }
 }
 .contact-table-right-cell {
     display: table-cell;
@@ -390,34 +432,4 @@ p.simple-text-in-experience{
 .htmlcss-gray-line {
     width: 23px;
     margin-left: -5px;
-}
-
-@media only screen and (max-width: 1280px) { /* TODO есть хорошая практика все @media писать отдельно для каждого элемента и сразу после стилей этого элемента. То есть все стили что тут внутри надо раскидать по файлу рядом с соответствующими свойствами */
-    .section-with-logo-profile-contact-skills {
-        width: 42.5rem;
-        float: none;
-        margin: 0px auto;
-    }
-    .section-with-education-experience-sofware {
-        width: 42.5rem;
-        float: none;
-        margin: 0px auto;
-    }
-    .logo-circle {
-        margin: 0px auto;
-    }
-    .name-surname {
-        margin: 0px;
-        text-align: center;
-    }
-    .job {
-        margin: 0px;
-    }
-    .contact-table {
-        width: 60%;
-        margin: 0px auto;
-    }
-    .contact-table-left-cell {
-        width: 50%;
-    }
 }
