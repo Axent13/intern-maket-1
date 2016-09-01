@@ -474,88 +474,88 @@ p.simple-text-in-experience{
 .grayline {
     background-color: #e6e6e6;
 }
-.photoshop-blue-line {
+.photoshop-knowing-level {
     width: 280px;
 }
-.photoshop-gray-line {
+.photoshop-dontknowing-level {
     width: 27px;
     margin-left: -5px;
 }
-.illustrator-blue-line {
+.illustrator-knowing-level {
     width: 217px;
 }
-.illustrator-gray-line {
+.illustrator-dontknowing-level {
     width: 90px;
     margin-left: -5px;
 }
-.indesign-blue-line {
+.indesign-knowing-level {
     width: 174px;
 }
-.indesign-gray-line {
+.indesign-dontknowing-level {
     width: 133px;
     margin-left: -5px;
 }
-.dreamweaver-blue-line {
+.dreamweaver-knowing-level {
     width: 254px;
 }
-.dreamweaver-gray-line {
+.dreamweaver-dontknowing-level {
     width: 51px;
     margin-left: -5px;
 }
-.aftereffects-blue-line {
+.aftereffects-knowing-level {
     width: 188px;
 }
-.aftereffects-gray-line {
+.aftereffects-dontknowing-level {
     width: 117px;
     margin-left: -5px;
 }
-.htmlcss-blue-line {
+.htmlcss-knowing-level {
     width: 278px;
 }
-.htmlcss-gray-line {
+.htmlcss-dontknowing-level {
     width: 27px;
     margin-left: -5px;
 }
 @media only screen and (max-width: 1280px) {
-    .photoshop-blue-line {
+    .photoshop-knowing-level {
         width: 275px;
     }
-    .photoshop-gray-line {
+    .photoshop-dontknowing-level {
         width: 25px;
         margin-left: -5px;
     }
-    .illustrator-blue-line {
+    .illustrator-knowing-level {
         width: 213px;
     }
-    .illustrator-gray-line {
+    .illustrator-dontknowing-level {
         width: 87px;
         margin-left: -5px;
     }
-    .indesign-blue-line {
+    .indesign-knowing-level {
         width: 171px;
     }
-    .indesign-gray-line {
+    .indesign-dontknowing-level {
         width: 129px;
         margin-left: -5px;
     }
-    .dreamweaver-blue-line {
+    .dreamweaver-knowing-level {
         width: 250px;
     }
-    .dreamweaver-gray-line {
+    .dreamweaver-dontknowing-level {
         width: 50px;
         margin-left: -5px;
     }
-    .aftereffects-blue-line {
+    .aftereffects-knowing-level {
         width: 185px;
     }
-    .aftereffects-gray-line {
+    .aftereffects-dontknowing-level {
         width: 115px;
         margin-left: -5px;
     }
-    .htmlcss-blue-line {
+    .htmlcss-knowing-level {
         width: 275px;
     }
-    .htmlcss-gray-line {
+    .htmlcss-dontknowing-level {
         width: 25px;
         margin-left: -5px;
     }
