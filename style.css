@@ -462,16 +462,16 @@ p.simple-text-in-experience{
 .software-name.lesser-margin-top {
     margin-bottom: 7px;
 }
-.blueline,
-.grayline{
+.knowing-level,
+.dontknowing-level {
     display: inline-block;
     height: 25px;
     margin-bottom: 0;
 }
-.blueline {
+.knowing-level {
     background-color: #3d6cb0;
 }
-.grayline {
+.dontknowing-level {
     background-color: #e6e6e6;
 }
 .photoshop-knowing-level {
