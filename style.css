@@ -1,5 +1,8 @@
 html {
     font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .section-with-logo-profile-contact-skills {
     width: 34.11%;
@@ -226,27 +229,27 @@ div {
 }
 @media only screen and (max-width: 1280px) {
     .header-line-profile {
-        width: 412px;
+        width: 407px;
         margin-left: 2px;
     }
     .header-line-contact {
-        width: 389px;
+        width: 385px;
         margin-left: 3px;
     }
     .header-line-skills {
-        width: 442px;
+        width: 436px;
         margin-left: 8px;
     }
     .header-line-education {
-        width: 328px;
+        width: 322px;
         margin-left: 3px;
     }
     .header-line-experience {
-        width: 324px;
+        width: 315px;
         margin: 3px 0 0 0;
     }
     .header-line-software {
-        width: 346px;
+        width: 340px;
         margin: 5px 0 0 0;
     }
 }
@@ -356,14 +359,14 @@ li.black-circle {
     font-size: 73px;
     margin-left: 0;
     list-style-position: inside;
-    margin-top: -13px;
+    margin-top: -11px;
 
 }
 .black-circle-upper {
     font-size: 73px;
     margin-left: 0;
     list-style-position: inside;
-    margin-top: -8px;
+    margin-top: -4px;
 }
 ul.list-of-experience {
     padding-left: 14px;
@@ -529,37 +532,37 @@ p.simple-text-in-experience{
 }
 @media only screen and (max-width: 1280px) {
     .photoshop-knowing-level {
-        width: 275px;
+        width: 274px;
     }
     .photoshop-dontknowing-level {
         width: 25px;
     }
     .illustrator-knowing-level {
-        width: 213px;
+        width: 212px;
     }
     .illustrator-dontknowing-level {
         width: 87px;
     }
     .indesign-knowing-level {
-        width: 171px;
+        width: 170px;
     }
     .indesign-dontknowing-level {
         width: 129px;
     }
     .dreamweaver-knowing-level {
-        width: 250px;
+        width: 249px;
     }
     .dreamweaver-dontknowing-level {
         width: 50px;
     }
     .aftereffects-knowing-level {
-        width: 185px;
+        width: 184px;
     }
     .aftereffects-dontknowing-level {
         width: 115px;
     }
     .htmlcss-knowing-level {
-        width: 275px;
+        width: 274px;
     }
     .htmlcss-dontknowing-level {
         width: 25px;
