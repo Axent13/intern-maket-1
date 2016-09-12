@@ -71,31 +71,32 @@ div {
     text-transform: uppercase;
     font-size: 54px;
     letter-spacing: 3px;
-    margin: 2px 0 0 2px;
+    margin: 0 0 0 2px;
     padding: 0;
 }
 .surname {
     text-transform: uppercase;
     font-size: 65px;
     letter-spacing: 2px;
-    margin: -19px 0;
+    line-height: 46px;
+    margin: 0;
     padding: 0;
 }
 @media only screen and (max-width: 1280px) {
     .surname {
-        margin: -17px auto  15px auto;
+        margin: 7px auto;
     }
 }
 .job {
     text-transform: uppercase;
     font-size: 26px;
     letter-spacing: 0;
-    margin: 19px 0;
+    margin: 18px 0;
     padding: 0;
 }
 @media only screen and (max-width: 1280px) {
     .job {
-        margin: 0;
+        margin: 15px;
     }
 }
 
@@ -155,11 +156,16 @@ div {
 .header-part {
     vertical-align: middle;
 }
-.header-name-profile, .header-name-contact, .header-name-skills, .header-name-education, .header-name-experience, .header-name-software {
+.header-name-profile,
+.header-name-contact,
+.header-name-skills,
+.header-name-education,
+.header-name-experience,
+.header-name-software {
     color: #3d6cb0;
     font-size: 46px;
     text-transform: uppercase;
-    margin-top: -7px;
+    margin-top: 0;
     display: inline-block;
 }
 .header-name-profile {
@@ -182,7 +188,12 @@ div {
     padding-left: 17px;
     margin-top: 0;
 }
-.header-line-profile, .header-line-contact, .header-line-skills, .header-line-education, .header-line-experience, .header-line-software {
+.header-line-profile,
+.header-line-contact,
+.header-line-skills,
+.header-line-education,
+.header-line-experience,
+.header-line-software {
     background-color: #3d6cb0;
     height: 6px;
     box-sizing: border-box;
@@ -207,7 +218,7 @@ div {
 }
 .header-line-experience {
     width: 342px;
-    margin: 3px 0 0 -6px;
+    margin: 3px 0 0 0;
 }
 .header-line-software {
     width: 344px;
@@ -303,7 +314,10 @@ p.simple-text {
 .creative-block {
     margin-top: 25px;
 }
-.creative-block, .teamwork-block, .innovate-block, .communication-block {
+.creative-block,
+.teamwork-block,
+.innovate-block,
+.communication-block {
     text-align: center;
 }
 .skill-name {
@@ -357,7 +371,7 @@ ul.list-of-experience {
 }
 ul.list-of-education {
     padding-left: 14px;
-    margin-top: 9px;
+    margin-top: 6px;
 }
 .table {
     margin-top: 14px;
@@ -390,7 +404,8 @@ p.simple-text-in-experience{
     padding: 5px 0 0 46px;
     margin-bottom: 0;
 }
-.company-name, .master-degree {
+.company-name,
+.master-degree {
     text-transform: uppercase;
     font-size: 29px;
     display: inline-block;
@@ -405,7 +420,8 @@ p.simple-text-in-experience{
 .company-name {
     color: black;
 }
-.working-period, .education-period {
+.working-period,
+.education-period {
     font-size: 29px;
     padding-left: 11px;
     letter-spacing: 0;
@@ -413,7 +429,8 @@ p.simple-text-in-experience{
     vertical-align: middle;
     margin-bottom: 12px;
 }
-.your-job-here, .university-name {
+.your-job-here,
+.university-name {
     font-size: 29px;
     text-transform: uppercase;
     margin-top: -23px;
@@ -479,42 +496,36 @@ p.simple-text-in-experience{
 }
 .photoshop-dontknowing-level {
     width: 27px;
-    margin-left: -5px;
 }
 .illustrator-knowing-level {
     width: 217px;
 }
 .illustrator-dontknowing-level {
     width: 90px;
-    margin-left: -5px;
 }
 .indesign-knowing-level {
     width: 174px;
 }
 .indesign-dontknowing-level {
     width: 133px;
-    margin-left: -5px;
 }
 .dreamweaver-knowing-level {
     width: 254px;
 }
 .dreamweaver-dontknowing-level {
     width: 51px;
-    margin-left: -5px;
 }
 .aftereffects-knowing-level {
     width: 188px;
 }
 .aftereffects-dontknowing-level {
     width: 117px;
-    margin-left: -5px;
 }
 .htmlcss-knowing-level {
     width: 278px;
 }
 .htmlcss-dontknowing-level {
     width: 27px;
-    margin-left: -5px;
 }
 @media only screen and (max-width: 1280px) {
     .photoshop-knowing-level {
@@ -522,41 +533,35 @@ p.simple-text-in-experience{
     }
     .photoshop-dontknowing-level {
         width: 25px;
-        margin-left: -5px;
     }
     .illustrator-knowing-level {
         width: 213px;
     }
     .illustrator-dontknowing-level {
         width: 87px;
-        margin-left: -5px;
     }
     .indesign-knowing-level {
         width: 171px;
     }
     .indesign-dontknowing-level {
         width: 129px;
-        margin-left: -5px;
     }
     .dreamweaver-knowing-level {
         width: 250px;
     }
     .dreamweaver-dontknowing-level {
         width: 50px;
-        margin-left: -5px;
     }
     .aftereffects-knowing-level {
         width: 185px;
     }
     .aftereffects-dontknowing-level {
         width: 115px;
-        margin-left: -5px;
     }
     .htmlcss-knowing-level {
         width: 275px;
     }
     .htmlcss-dontknowing-level {
         width: 25px;
-        margin-left: -5px;
     }
 }
