@@ -173,15 +173,6 @@ div {
 .header-part {
     vertical-align: middle;
 }
-.header-buffer-line {
-    background-color: white;
-    min-height: 6px;
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-    position: relative;
-}
-
 .header-name-profile,
 .header-name-contact,
 .header-name-skills,
@@ -227,9 +218,8 @@ div {
     width: 100%;
 }
 .header-line-profile {
-    position: relative;
-    top: -52px;
-    z-index: 10;
+    width: 185px;
+    margin-left: 2px;
 }
 .header-line-contact {
     width: 162px;
