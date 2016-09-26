@@ -4,26 +4,27 @@ html {
     background-color: white;
     font-family: Helvetica, Arial, sans-serif;
 }
-.section-with-logo-profile-contact-skills {
+.left-column {
     width: 34.11%;
     margin-top: 69px;
     float: left;
     margin-left: 59px;
 }
-.section-with-education-experience-software {
+@media only screen and (max-width: 1280px) {
+    .left-column {
+        width: 42.5rem;
+        float: none;
+        margin: 0 auto;
+    }
+}
+.right-column {
     width: 53%;
     margin-top: 75px;
     float: left;
     margin-left: 84px;
 }
 @media only screen and (max-width: 1280px) {
-    .section-with-logo-profile-contact-skills {
-        width: 42.5rem;
-        float: none;
-        margin: 0 auto;
-    }
-
-    .section-with-education-experience-software {
+    .right-column {
         width: 42.5rem;
         float: none;
         margin: 0 auto;
@@ -65,24 +66,23 @@ div {
     background-color: #3d6cb0;
     border-radius: 222px;
 }
-
-.name-surname {
+.logo-content {
     text-align: center;
 }
 @media only screen and (max-width: 1280px) {
-    .name-surname {
+    .logo-content {
         margin: 0;
         text-align: center;
     }
 }
-.name {
+.logo-content-name {
     text-transform: uppercase;
     font-size: 54px;
     letter-spacing: 3px;
     margin: 0 0 0 2px;
     padding: 0;
 }
-.surname {
+.logo-content-surname {
     text-transform: uppercase;
     font-size: 65px;
     letter-spacing: 2px;
@@ -91,11 +91,11 @@ div {
     padding: 0;
 }
 @media only screen and (max-width: 1280px) {
-    .surname {
+    .logo-content-surname {
         margin: 7px auto;
     }
 }
-.job {
+.logo-content-job {
     text-transform: uppercase;
     font-size: 26px;
     letter-spacing: 0;
@@ -104,54 +104,58 @@ div {
     color: #3d6cb0;
 }
 @media only screen and (max-width: 1280px) {
-    .job {
+    .logo-content-job {
         margin: 15px;
     }
 }
-
-.section-with-education-experience-software .header-table-right-cell {
+.right-column .header-table-right-cell {
     display: table-cell;
     min-width: 343px;
     vertical-align: middle;
 }
 /***************************************/
 /************** СПРАЙТЫ ****************/
-.profile-icon, .contact-icon, .skills-icon, .education-icon, .experience-icon, .software-icon{
+.profile-header-icon,
+.contact-header-icon,
+.skills-header-icon,
+.education-header-icon,
+.experience-header-icon,
+.software-header-icon {
     background: url(img/sprites.png) no-repeat;
     display: inline-block;
 }
 
-.profile-icon{
+.profile-header-icon{
     background-position: 0 0;
     width: 82px;
     height: 79px;
 }
 
-.contact-icon{
+.contact-header-icon{
     background-position: -100px 0;
     width: 79px;
     height: 79px;
 }
 
-.skills-icon{
+.skills-header-icon{
     background-position: -200px 0;
     width: 79px;
     height: 79px;
 }
 
-.education-icon{
+.education-header-icon{
     background-position: -300px 0;
     width: 82px;
     height: 80px;
 }
 
-.experience-icon{
+.experience-header-icon{
     background-position: -400px 0;
     width: 85px;
     height: 83px;
 }
 
-.software-icon{
+.software-header-icon{
     background-position: -500px 0;
     width: 82px;
     height: 80px;
@@ -170,96 +174,96 @@ div {
 .header-part {
     vertical-align: middle;
 }
-.header-name-profile,
-.header-name-contact,
-.header-name-skills,
-.header-name-education,
-.header-name-experience,
-.header-name-software {
+.profile-header-name,
+.contact-header-name,
+.skills-header-name,
+.education-header-name,
+.experience-header-name,
+.software-header-name {
     color: #3d6cb0;
     font-size: 46px;
     text-transform: uppercase;
     margin-top: 0;
     display: inline-block;
 }
-.header-name-profile {
+.profile-header-name {
     padding-left: 5px;
 }
-.header-name-contact {
+.contact-header-name {
     padding-left: 8px;
 }
-.header-name-skills {
+.skills-header-name {
     padding-left: 4px;
 }
-.header-name-education {
+.education-header-name {
     padding-left: 16px;
 }
-.header-name-experience {
+.experience-header-name {
     padding-left: 14px;
     margin-top: 0;
 }
-.header-name-software {
+.software-header-name {
     padding-left: 17px;
     margin-top: 0;
 }
-.header-line-profile,
-.header-line-contact,
-.header-line-skills,
-.header-line-education,
-.header-line-experience,
-.header-line-software {
+.profile-header-line,
+.contact-header-line,
+.skills-header-line,
+.education-header-line,
+.experience-header-line,
+.software-header-line {
     background-color: #3d6cb0;
     height: 6px;
     box-sizing: border-box;
     display: inline-block;
     margin-top: 6px;
 }
-.header-line-profile {
+.profile-header-line {
     width: 185px;
     margin-left: 2px;
 }
-.header-line-contact {
+.contact-header-line {
     width: 162px;
     margin-left: 3px;
 }
-.header-line-skills {
+.skills-header-line {
     width: 213px;
     margin-left: 8px;
 }
-.header-line-education {
+.education-header-line {
     width: 344px;
     margin-left: 3px;
 }
-.header-line-experience {
+.experience-header-line {
     width: 342px;
     margin: 3px 0 0 0;
 }
-.header-line-software {
+.software-header-line {
     width: 344px;
     margin: 5px 0 0 18px;
 }
 @media only screen and (max-width: 1280px) {
-    .header-line-profile {
+    .profile-header-line {
         width: 407px;
         margin-left: 2px;
     }
-    .header-line-contact {
+    .contact-header-line {
         width: 385px;
         margin-left: 3px;
     }
-    .header-line-skills {
+    .skills-header-line {
         width: 436px;
         margin-left: 8px;
     }
-    .header-line-education {
+    .education-header-line {
         width: 322px;
         margin-left: 3px;
     }
-    .header-line-experience {
+    .experience-header-line {
         width: 315px;
         margin: 3px 0 0 0;
     }
-    .header-line-software {
+    .software-header-line {
         width: 340px;
         margin: 5px 0 0 0;
     }
@@ -271,7 +275,8 @@ div {
     margin: 0;
     padding: 0 0 0 10px;
 }
-p.simple-text {
+.profile-text,
+.simple-text {
     color: black;
     font-size: 16px;
     padding: 8px 0 0 1px;
@@ -327,16 +332,16 @@ p.simple-text {
         margin-bottom: 60px;
     }
 }
-.skills-icon {
+.skills-header-icon {
     width: 81px;
 }
-.creative-block {
+.skills-creative-block {
     margin-top: 25px;
 }
-.creative-block,
-.teamwork-block,
-.innovate-block,
-.communication-block {
+.skills-creative-block,
+.skills-teamwork-block,
+.skills-innovate-block,
+.skills-communication-block {
     text-align: center;
 }
 .skill-name {
@@ -384,11 +389,11 @@ li.black-circle {
     list-style-position: inside;
     margin-top: -4px;
 }
-ul.list-of-experience {
+ul.experience-list {
     padding-left: 14px;
     margin-top: 24px;
 }
-ul.list-of-education {
+ul.education-list {
     padding-left: 14px;
     margin-top: 6px;
 }
