@@ -50,7 +50,7 @@ div {
     margin: 20px auto 31px auto;
     width: 254px;
     height: 253px;
-    border: 1px solid #91abd2;
+    border: 1px solid #3d6cb0;
     border-radius: 253px;
 }
 @media only screen and (max-width: 1280px) {
@@ -62,7 +62,7 @@ div {
     margin: 15px;
     width: 222px;
     height: 222px;
-    background-color: #91abd2;
+    background-color: #3d6cb0;
     border-radius: 222px;
 }
 
@@ -101,6 +101,7 @@ div {
     letter-spacing: 0;
     margin: 18px 0;
     padding: 0;
+    color: #3d6cb0;
 }
 @media only screen and (max-width: 1280px) {
     .job {
