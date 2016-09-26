@@ -471,15 +471,6 @@ p.simple-text-in-experience{
 .software-level {
     margin: 4px 4px 0 0;
 }
-.left-software,
-.right-software {
-    float: left;
-    width: 44%;
-}
-.left-software {
-    margin-right: 72px;
-    margin-left: 7px;
-}
 .software-name {
     font-size: 29px;
     text-transform: uppercase;
@@ -489,89 +480,16 @@ p.simple-text-in-experience{
 .software-name.lesser-margin-top {
     margin-bottom: 7px;
 }
-.knowing-level,
-.dontknowing-level {
+.progress-bar,
+.amount-of-progress {
     display: inline-block;
     height: 25px;
     margin-bottom: 0;
 }
-.knowing-level {
-    background-color: #3d6cb0;
-}
-.dontknowing-level {
+.progress-bar {
     background-color: #e6e6e6;
+    width: 306px;
 }
-.photoshop-knowing-level {
-    width: 280px;
-}
-.photoshop-dontknowing-level {
-    width: 27px;
-}
-.illustrator-knowing-level {
-    width: 217px;
-}
-.illustrator-dontknowing-level {
-    width: 90px;
-}
-.indesign-knowing-level {
-    width: 174px;
-}
-.indesign-dontknowing-level {
-    width: 133px;
-}
-.dreamweaver-knowing-level {
-    width: 254px;
-}
-.dreamweaver-dontknowing-level {
-    width: 51px;
-}
-.aftereffects-knowing-level {
-    width: 188px;
-}
-.aftereffects-dontknowing-level {
-    width: 117px;
-}
-.htmlcss-knowing-level {
-    width: 278px;
-}
-.htmlcss-dontknowing-level {
-    width: 27px;
-}
-@media only screen and (max-width: 1280px) {
-    .photoshop-knowing-level {
-        width: 274px;
-    }
-    .photoshop-dontknowing-level {
-        width: 25px;
-    }
-    .illustrator-knowing-level {
-        width: 212px;
-    }
-    .illustrator-dontknowing-level {
-        width: 87px;
-    }
-    .indesign-knowing-level {
-        width: 170px;
-    }
-    .indesign-dontknowing-level {
-        width: 129px;
-    }
-    .dreamweaver-knowing-level {
-        width: 249px;
-    }
-    .dreamweaver-dontknowing-level {
-        width: 50px;
-    }
-    .aftereffects-knowing-level {
-        width: 184px;
-    }
-    .aftereffects-dontknowing-level {
-        width: 115px;
-    }
-    .htmlcss-knowing-level {
-        width: 274px;
-    }
-    .htmlcss-dontknowing-level {
-        width: 25px;
-    }
+.amount-of-progress {
+    background-color: #3d6cb0;
 }
