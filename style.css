@@ -41,6 +41,11 @@ div {
         margin-bottom: 10px;
     }
 }
+@media only screen and (min-width: 1631px) {
+    .logo {
+        margin-bottom: 60px;
+    }
+}
 .logo-circle {
     margin: 20px auto 31px auto;
     width: 254px;
@@ -156,6 +161,11 @@ div {
 .profile {
     margin-bottom: 51px;
 }
+@media only screen and (min-width: 1631px) {
+    .profile {
+        margin-bottom: 30px;
+    }
+}
 .header-part {
     vertical-align: middle;
 }
@@ -270,6 +280,11 @@ p.simple-text {
 }
 .contact {
     margin-bottom: 53px;
+}
+@media only screen and (min-width: 1631px) {
+    .contact {
+        margin-bottom: 21px;
+    }
 }
 .contact-table {
     display: table;
