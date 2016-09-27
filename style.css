@@ -17,6 +17,11 @@ html {
         margin: 0 auto;
     }
 }
+@media only screen and (min-width: 1631px) {
+    .left-column {
+        margin-left: 86px;
+    }
+}
 .right-column {
     width: 53%;
     margin-top: 75px;
@@ -28,6 +33,12 @@ html {
         width: 42.5rem;
         float: none;
         margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1631px) {
+    .right-column {
+        margin-top: 108px;
+        margin-left: 108px;
     }
 }
 div {
@@ -44,7 +55,7 @@ div {
 }
 @media only screen and (min-width: 1631px) {
     .logo {
-        margin-bottom: 60px;
+        margin-bottom: 120px;
     }
 }
 .logo-circle {
@@ -59,12 +70,26 @@ div {
         margin: 0 auto;
     }
 }
+@media only screen and (min-width: 1631px) {
+    .logo-circle {
+        margin: 59px auto 37px auto;
+        width: 356px;
+        height: 357px;
+    }
+}
 .logo-round {
     margin: 15px;
     width: 222px;
     height: 222px;
     background-color: #3d6cb0;
     border-radius: 222px;
+}
+@media only screen and (min-width: 1631px) {
+    .logo-round {
+        margin: 20px;
+        width: 316px;
+        height: 316px;
+    }
 }
 .logo-content {
     text-align: center;
@@ -82,6 +107,12 @@ div {
     margin: 0 0 0 2px;
     padding: 0;
 }
+@media only screen and (min-width: 1631px) {
+    .logo-content-name {
+        font-size: 83px;
+        letter-spacing: 0;
+    }
+}
 .logo-content-surname {
     text-transform: uppercase;
     font-size: 65px;
@@ -95,6 +126,13 @@ div {
         margin: 7px auto;
     }
 }
+@media only screen and (min-width: 1631px) {
+    .logo-content-surname {
+        font-size: 99px;
+        letter-spacing: 0;
+        line-height: 58px;
+    }
+}
 .logo-content-job {
     text-transform: uppercase;
     font-size: 26px;
@@ -106,6 +144,12 @@ div {
 @media only screen and (max-width: 1280px) {
     .logo-content-job {
         margin: 15px;
+    }
+}
+@media only screen and (min-width: 1631px) {
+    .logo-content-job {
+        font-size: 37px;
+        margin: 29px 0;
     }
 }
 .right-column .header-table-right-cell {
@@ -124,41 +168,87 @@ div {
     background: url(img/sprites.png) no-repeat;
     display: inline-block;
 }
-
-.profile-header-icon{
+@media only screen and (min-width: 1631px) {
+    .profile-header-icon,
+    .contact-header-icon,
+    .skills-header-icon,
+    .education-header-icon,
+    .experience-header-icon,
+    .software-header-icon {
+        background: url(img/sprites_1920.png) no-repeat;
+    }
+}
+.profile-header-icon {
     background-position: 0 0;
     width: 82px;
     height: 79px;
 }
-
-.contact-header-icon{
+@media only screen and (min-width: 1631px) {
+    .profile-header-icon {
+        background-position: 0 0;
+        width: 116px;
+        height: 112px;
+    }
+}
+.contact-header-icon {
     background-position: -100px 0;
     width: 79px;
     height: 79px;
 }
-
-.skills-header-icon{
+@media only screen and (min-width: 1631px) {
+    .contact-header-icon {
+        background-position: -124px -1px;
+        width: 112px;
+        height: 112px;
+    }
+}
+.skills-header-icon {
     background-position: -200px 0;
     width: 79px;
     height: 79px;
 }
-
-.education-header-icon{
+@media only screen and (min-width: 1631px) {
+    .skills-header-icon {
+        background-position: -250px 0;
+        width: 112px;
+        height: 112px;
+    }
+}
+.education-header-icon {
     background-position: -300px 0;
     width: 82px;
     height: 80px;
 }
-
-.experience-header-icon{
+@media only screen and (min-width: 1631px) {
+    .education-header-icon {
+        background-position: 0 -151px;
+        width: 115px;
+        height: 112px;
+    }
+}
+.experience-header-icon {
     background-position: -400px 0;
     width: 85px;
     height: 83px;
 }
-
-.software-header-icon{
+@media only screen and (min-width: 1631px) {
+    .experience-header-icon {
+        background-position: -121px -152px;
+        width: 119px;
+        height: 115px;
+    }
+}
+.software-header-icon {
     background-position: -500px 0;
     width: 82px;
     height: 80px;
+}
+@media only screen and (min-width: 1631px) {
+    .software-header-icon {
+        background-position: -250px -151px;
+        width: 115px;
+        height: 112px;
+    }
 }
 /********* КОНЕЦ СПРАЙТОВ **********/
 /***********************************/
@@ -168,7 +258,7 @@ div {
 }
 @media only screen and (min-width: 1631px) {
     .profile {
-        margin-bottom: 30px;
+        margin-bottom: 73px;
     }
 }
 .header-part {
@@ -186,25 +276,67 @@ div {
     margin-top: 0;
     display: inline-block;
 }
+@media only screen and (min-width: 1631px) {
+    .profile-header-name,
+    .contact-header-name,
+    .skills-header-name,
+    .education-header-name,
+    .experience-header-name,
+    .software-header-name {
+        font-size: 64px;
+    }
+}
 .profile-header-name {
     padding-left: 5px;
+}
+@media only screen and (min-width: 1631px) {
+    .profile-header-name {
+        padding-left: 10px;
+    }
 }
 .contact-header-name {
     padding-left: 8px;
 }
+@media only screen and (min-width: 1631px) {
+    .contact-header-name {
+        padding-left: 14px;
+    }
+}
 .skills-header-name {
     padding-left: 4px;
 }
+@media only screen and (min-width: 1631px) {
+    .skills-header-name {
+        padding-left: 10px;
+    }
+}
 .education-header-name {
     padding-left: 16px;
+}
+@media only screen and (min-width: 1631px) {
+    .education-header-name {
+        padding-left: 26px;
+    }
 }
 .experience-header-name {
     padding-left: 14px;
     margin-top: 0;
 }
+@media only screen and (min-width: 1631px) {
+    .experience-header-name {
+        padding-left: 22px;
+        margin-top: 0;
+    }
+}
 .software-header-name {
     padding-left: 17px;
     margin-top: 0;
+}
+@media only screen and (min-width: 1631px) {
+    .software-header-name {
+        padding-left: 27px;
+        margin-top: 1px;
+    }
 }
 .profile-header-line,
 .contact-header-line,
@@ -218,29 +350,79 @@ div {
     display: inline-block;
     margin-top: 6px;
 }
+@media only screen and (min-width: 1631px) {
+    .profile-header-line,
+    .contact-header-line,
+    .skills-header-line,
+    .education-header-line,
+    .experience-header-line,
+    .software-header-line {
+        background-color: #3d6cb0;
+        height: 9px;
+        box-sizing: border-box;
+        display: inline-block;
+        margin-top: 9px;
+    }
+}
 .profile-header-line {
     width: 185px;
     margin-left: 2px;
+}
+@media only screen and (min-width: 1631px) {
+    .profile-header-line {
+        width: 260px;
+        margin-left: 6px;
+    }
 }
 .contact-header-line {
     width: 162px;
     margin-left: 3px;
 }
+@media only screen and (min-width: 1631px) {
+    .contact-header-line {
+        width: 230px;
+        margin-left: 5px;
+    }
+}
 .skills-header-line {
     width: 213px;
     margin-left: 8px;
+}
+@media only screen and (min-width: 1631px) {
+    .skills-header-line {
+        width: 298px;
+        margin-left: 15px;
+    }
 }
 .education-header-line {
     width: 344px;
     margin-left: 3px;
 }
+@media only screen and (min-width: 1631px) {
+    .education-header-line {
+        width: 482px;
+        margin-left: 8px;
+    }
+}
 .experience-header-line {
     width: 342px;
     margin: 3px 0 0 0;
 }
+@media only screen and (min-width: 1631px) {
+    .experience-header-line {
+        width: 481px;
+        margin: 3px 0 0 0;
+    }
+}
 .software-header-line {
     width: 344px;
     margin: 5px 0 0 18px;
+}
+@media only screen and (min-width: 1631px) {
+    .software-header-line {
+        width: 482px;
+        margin: 5px 0 0 29px;
+    }
 }
 @media only screen and (max-width: 1280px) {
     .profile-header-line {
@@ -284,12 +466,20 @@ div {
     margin: 0;
     line-height: 22px;
 }
+@media only screen and (min-width: 1631px) {
+    .profile-text,
+    .simple-text {
+        font-size: 25px;
+        padding: 16px 0 0 1px;
+        line-height: 26px;
+    }
+}
 .contact {
     margin-bottom: 53px;
 }
 @media only screen and (min-width: 1631px) {
     .contact {
-        margin-bottom: 21px;
+        margin-bottom: 75px;
     }
 }
 .contact-table {
@@ -297,11 +487,16 @@ div {
     width: 470px;
     margin-top: 1px;
 }
-
 @media only screen and (max-width: 1280px) {
     .contact-table {
         width: 60%;
         margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1631px) {
+    .contact-table {
+        width: 670px;
+        margin-top: 4px;
     }
 }
 .contact-table-row {
@@ -320,9 +515,20 @@ div {
         width: 50%;
     }
 }
+@media only screen and (min-width: 1631px) {
+    .contact-table-left-cell {
+        padding-top: 42px;
+        font-size: 32px;
+    }
+}
 .contact-table-right-cell {
     display: table-cell;
     font-size: 24px;
+}
+@media only screen and (min-width: 1631px) {
+    .contact-table-right-cell {
+        font-size: 32px;
+    }
 }
 .skills {
     margin-bottom: 0;
@@ -332,11 +538,13 @@ div {
         margin-bottom: 60px;
     }
 }
-.skills-header-icon {
-    width: 81px;
-}
 .skills-creative-block {
     margin-top: 25px;
+}
+@media only screen and (min-width: 1631px) {
+    .skills-creative-block {
+        margin-top: 34px;
+    }
 }
 .skills-creative-block,
 .skills-teamwork-block,
@@ -352,9 +560,20 @@ div {
     padding: 0;
     font-weight: normal;
 }
+@media only screen and (min-width: 1631px) {
+    .skill-name {
+        font-size: 39px;
+        letter-spacing: 1px;
+    }
+}
 ul.skills-points {
     margin: 11px 0 19px 0;
     padding-left: 0;
+}
+@media only screen and (min-width: 1631px) {
+    ul.skills-points {
+        margin: 11px 0 26px 0;
+    }
 }
 li.point {
     width: 18px;
@@ -362,6 +581,13 @@ li.point {
     border-radius: 18px;
     padding-right: 0;
     margin-right: 8px;
+}
+@media only screen and (min-width: 1631px) {
+    li.point {
+        width: 28px;
+        height: 28px;
+        margin-right: 11px;
+    }
 }
 li.on {
     list-style: none;
@@ -376,6 +602,11 @@ li.off {
 .education {
     margin-bottom: 55px;
 }
+@media only screen and (min-width: 1631px) {
+    .education {
+        margin-bottom: 76px;
+    }
+}
 li.black-circle {
     font-size: 73px;
     margin-left: 0;
@@ -383,19 +614,43 @@ li.black-circle {
     margin-top: -11px;
 
 }
+@media only screen and (min-width: 1631px) {
+    li.black-circle {
+        font-size: 100px;
+        margin-top: -20px;
+    }
+}
 .black-circle-upper {
     font-size: 73px;
     margin-left: 0;
     list-style-position: inside;
     margin-top: -4px;
 }
-ul.experience-list {
-    padding-left: 14px;
-    margin-top: 24px;
+@media only screen and (min-width: 1631px) {
+    .black-circle-upper {
+        font-size: 100px;
+        margin-top: 0;
+    }
 }
 ul.education-list {
     padding-left: 14px;
     margin-top: 6px;
+}
+@media only screen and (min-width: 1631px) {
+    ul.education-list {
+        padding-left: 20px;
+        margin-top: 4px;
+    }
+}
+ul.experience-list {
+    padding-left: 14px;
+    margin-top: 24px;
+}
+@media only screen and (min-width: 1631px) {
+    ul.experience-list {
+        padding-left: 20px;
+        margin-top: 26px;
+    }
 }
 .table {
     margin-top: 14px;
@@ -428,6 +683,13 @@ p.simple-text-in-experience{
     padding: 5px 0 0 46px;
     margin-bottom: 0;
 }
+@media only screen and (min-width: 1631px) {
+    p.simple-text-in-education,
+    p.simple-text-in-experience{
+        line-height: 30px;
+        padding: 7px 0 0 65px;
+    }
+}
 .company-name,
 .master-degree {
     text-transform: uppercase;
@@ -437,6 +699,14 @@ p.simple-text-in-experience{
     margin-bottom: 12px;
     letter-spacing: 0;
     margin-left: -20px;
+}
+@media only screen and (min-width: 1631px) {
+    .company-name,
+    .master-degree {
+        font-size: 41px;
+        margin-bottom: 16px;
+        margin-left: -26px;
+    }
 }
 .master-degree {
     color: #3d6cb0;
@@ -453,6 +723,12 @@ p.simple-text-in-experience{
     vertical-align: middle;
     margin-bottom: 12px;
 }
+@media only screen and (min-width: 1631px) {
+    .working-period,
+    .education-period {
+        font-size: 40px;
+    }
+}
 .your-job-here,
 .university-name {
     font-size: 29px;
@@ -460,8 +736,21 @@ p.simple-text-in-experience{
     margin-top: -23px;
     padding-left: 43px;
 }
+@media only screen and (min-width: 1631px) {
+    .your-job-here,
+    .university-name {
+        font-size: 40px;
+        margin-top: -29px;
+        padding-left: 62px;
+    }
+}
 .experience {
     margin-bottom: 58px;
+}
+@media only screen and (min-width: 1631px) {
+    .experience {
+        margin-bottom: 77px;
+    }
 }
 .experience-title {
     letter-spacing: -1px;
@@ -489,14 +778,32 @@ p.simple-text-in-experience{
     width: 693px;
     margin: 0 auto;
 }
+@media only screen and (min-width: 1631px) {
+    .flex-container {
+        width: 987px;
+        margin-top: 12px;
+    }
+}
 .software-level {
     margin: 4px 4px 0 0;
+}
+@media only screen and (min-width: 1631px) {
+    .software-level {
+        margin: 7px 19px 0 0;
+    }
 }
 .software-name {
     font-size: 29px;
     text-transform: uppercase;
     margin-top: 19px;
     margin-bottom: 11px;
+}
+@media only screen and (min-width: 1631px) {
+    .software-name {
+        font-size: 41px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
 }
 .software-name.lesser-margin-top {
     margin-bottom: 7px;
@@ -507,9 +814,21 @@ p.simple-text-in-experience{
     height: 25px;
     margin-bottom: 0;
 }
+@media only screen and (min-width: 1631px) {
+    .progress-bar,
+    .amount-of-progress {
+        height: 33px;
+    }
+}
 .progress-bar {
     background-color: #e6e6e6;
     width: 306px;
+}
+@media only screen and (min-width: 1631px) {
+    .progress-bar {
+        width: 430px;
+        margin-top: 9px;
+    }
 }
 .amount-of-progress {
     background-color: #3d6cb0;
