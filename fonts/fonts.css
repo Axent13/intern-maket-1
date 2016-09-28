@@ -38,12 +38,12 @@
 
 }
 
-.light {
+.font-light {
 	font-family: "myriad_prolight_semiextended";
 }
-.regular {
+.font-regular {
 	font-family: "myriad_proregular";
 }
-.bold {
+.font-bold {
 	font-family: "myriad_probold";
 }
