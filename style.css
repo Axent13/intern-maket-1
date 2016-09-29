@@ -111,7 +111,8 @@ div {
 /********* КОНЕЦ СПРАЙТОВ **********/
 /***********************************/
 .section-header {
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 .section-header__name {
     color: #3d6cb0;
@@ -119,8 +120,6 @@ div {
     text-transform: uppercase;
     display: inline-block;
     vertical-align: middle;
-    position: relative;
-    z-index: 10;
 }
 @media only screen and (min-width: 1631px) {
     .section-header__name {
@@ -128,11 +127,11 @@ div {
     }
 }
 .section-header__name_position_left-column {
-    padding-left: 5px;
+    padding-left: 10px;
 }
 @media only screen and (min-width: 1631px) {
     .section-header__name_position_left-column {
-        padding-left: 10px;
+        padding-left: 15px;
     }
 }
 .section-header__name_position_right-column {
@@ -148,13 +147,7 @@ div {
     height: 6px;
     box-sizing: border-box;
     display: inline-block;
-    width: 100%;
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+    flex-grow: 1;
 }
 @media only screen and (min-width: 1631px) {
     .section-header__line {
@@ -162,64 +155,52 @@ div {
         height: 9px;
     }
 }
-.section-header__buffer-line {
-    background-color: white;
-    height: 20px;
-    box-sizing: border-box;
-    display: inline-block;
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-}
-.section-header__buffer-line_profile {
-    width: 270px;
+.section-header__line_profile {
+    margin-left: 5px;
 }
 @media only screen and (min-width: 1631px) {
-    .section-header__buffer-line_profile {
-        width: 379px;
+    .section-header__line_profile {
+        margin-left: 9px;
     }
 }
-.section-header__buffer-line_contact {
-    width: 292px;
+.section-header__line_contact {
+    margin-left: 9px;
 }
 @media only screen and (min-width: 1631px) {
-    .section-header__buffer-line_contact {
-        width: 410px;
+    .section-header__line_contact {
+        margin-left: 14px;
     }
 }
-.section-header__buffer-line_skills {
-    width: 240px;
+.section-header__line_skills {
+    margin-left: 12px;
 }
 @media only screen and (min-width: 1631px) {
-    .section-header__buffer-line_skills {
-        width: 338px;
+    .section-header__line_skills {
+        margin-left: 17px;
     }
 }
-.section-header__buffer-line_education {
-    width: 354px;
+.section-header__line_education {
+    margin-left: 12px;
 }
 @media only screen and (min-width: 1631px) {
-    .section-header__buffer-line_education {
-        width: 499px;
+    .section-header__line_education {
+        margin-left: 19px;
     }
 }
-.section-header__buffer-line_experience {
-    width: 355px;
+.section-header__line_experience {
+    margin-left: 0;
 }
 @media only screen and (min-width: 1631px) {
-    .section-header__buffer-line_experience {
-        width: 500px;
+    .section-header__line_experience {
+        margin-left: 6px;
     }
 }
-.section-header__buffer-line_software {
-    width: 354px;
+.section-header__line_software {
+    margin-left: 28px;
 }
 @media only screen and (min-width: 1631px) {
-    .section-header__buffer-line_software {
-        width: 499px;
+    .section-header__line_software {
+        margin-left: 41px;
     }
 }
 .left-column {
