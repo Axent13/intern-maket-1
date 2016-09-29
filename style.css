@@ -12,6 +12,8 @@ div {
 .section-header__icon {
     display: inline-block;
     vertical-align: middle;
+    position: relative;
+    z-index: 10;
     background: url(img/sprites.png) no-repeat;
 }
 @media only screen and (min-width: 1631px) {
@@ -93,19 +95,37 @@ div {
 }
 /********* КОНЕЦ СПРАЙТОВ **********/
 /***********************************/
+.section-header {
+    position: relative;
+}
 .section-header__name {
     color: #3d6cb0;
     font-size: 46px;
     text-transform: uppercase;
-    margin-top: 0;
     display: inline-block;
-    padding-left: 5px;
     vertical-align: middle;
+    position: relative;
+    z-index: 10;
 }
 @media only screen and (min-width: 1631px) {
     .section-header__name {
         font-size: 64px;
+    }
+}
+.section-header__name_position_left-column {
+    padding-left: 5px;
+}
+@media only screen and (min-width: 1631px) {
+    .section-header__name_position_left-column {
         padding-left: 10px;
+    }
+}
+.section-header__name_position_right-column {
+    padding-left: 15px;
+}
+@media only screen and (min-width: 1631px) {
+    .section-header__name_position_right-column {
+        padding-left: 24px;
     }
 }
 .section-header__line {
@@ -113,22 +133,78 @@ div {
     height: 6px;
     box-sizing: border-box;
     display: inline-block;
-    margin-top: 6px;
-    width: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 @media only screen and (min-width: 1631px) {
     .section-header__line {
         background-color: #3d6cb0;
         height: 9px;
-        box-sizing: border-box;
-        display: inline-block;
-        margin-top: 9px;
-        width: 200px;
     }
 }
-@media only screen and (max-width: 1280px) {
-    .section-header__line {
-        width: 300px;
+.section-header__buffer-line {
+    background-color: white;
+    height: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.section-header__buffer-line_profile {
+    width: 270px;
+}
+@media only screen and (min-width: 1631px) {
+    .section-header__buffer-line_profile {
+        width: 379px;
+    }
+}
+.section-header__buffer-line_contact {
+    width: 292px;
+}
+@media only screen and (min-width: 1631px) {
+    .section-header__buffer-line_contact {
+        width: 410px;
+    }
+}
+.section-header__buffer-line_skills {
+    width: 240px;
+}
+@media only screen and (min-width: 1631px) {
+    .section-header__buffer-line_skills {
+        width: 338px;
+    }
+}
+.section-header__buffer-line_education {
+    width: 354px;
+}
+@media only screen and (min-width: 1631px) {
+    .section-header__buffer-line_education {
+        width: 499px;
+    }
+}
+.section-header__buffer-line_experience {
+    width: 355px;
+}
+@media only screen and (min-width: 1631px) {
+    .section-header__buffer-line_experience {
+        width: 500px;
+    }
+}
+.section-header__buffer-line_software {
+    width: 354px;
+}
+@media only screen and (min-width: 1631px) {
+    .section-header__buffer-line_software {
+        width: 499px;
     }
 }
 .left-column {
