@@ -1,0 +1,18 @@
+mixin addSoftwareItem(softwareName, progress)
+    .software__level
+        p.software__name.font-regular #{softwareName}
+        .software__progress-bar
+            div(class = "software__amount-of-progress" style = "width: " + progress + "%")
+
+include ../section-header/section-header.pug
+
+section.software
+    +createHeader('software', right-column)
+    .flex-container
+        +addSoftwareItem('Photoshop', 91)
+        +addSoftwareItem('Dreamweaver', 83)
+        +addSoftwareItem('Illustrator', 71)
+        +addSoftwareItem('After Effects', 61)
+        +addSoftwareItem('Indesign', 57)
+        +addSoftwareItem('HTML&CSS3', 91)
+

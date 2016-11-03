@@ -1,0 +1,10 @@
+include ../section-header/section-header.pug
+include /education__list/education__list.pug
+
+section.education
+    +createHeader('education', 'right-column')
+    .list.education__list 
+    - var i = 0
+    while i < 4
+        +addEducationListItem()
+        - i += 1

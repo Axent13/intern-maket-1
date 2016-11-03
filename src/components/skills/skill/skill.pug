@@ -1,0 +1,12 @@
+mixin addSkill(skillName, skillPoints)
+    .skill
+        .skill__name.font-regular #{skillName}
+        ul.skill__points
+        - var i = 0
+        while i < +skillPoints
+            li.skill__point.skill__point_on
+            - i += 1
+        while i < 12
+            li.skill__point.skill__point_off
+            - i += 1
+

@@ -1,0 +1,10 @@
+include ../section-header/section-header.pug
+include /experience__list/experience__list.pug
+
+section.experience
+    +createHeader('experience', 'right-column')
+    .list.experience__list 
+    - var i = 0
+    while i < 3
+        +addExperienceListItem()
+        - i += 1
