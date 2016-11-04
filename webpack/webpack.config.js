@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
     entry: './src/main',
@@ -14,12 +15,12 @@ module.exports = {
             loader: 'babel'
         }, {
             test: /\.styl$/,
-            loader: 'style!css?sourceMap!stylus?sourceMap'
+            loader: ExtractTextPlugin.extract('style', 'css!stylus?resolve url')
         }, {
             test: /\.pug$/,
             loader: 'pug'
         }, {
-            test: /\.(jpe?g|png|gif|svg)$/i,
+            test: /\.(jpe?g|png|gif|svg|woff|ttf|eot)$/i,
             loader: 'file?name=[name].[ext]!image-webpack'
         }]
     },
@@ -35,6 +36,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'src/index.pug'
-      })
+      }),
+        new ExtractTextPlugin("styles.css")
     ]
   };
