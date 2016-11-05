@@ -3,45 +3,37 @@
   margin-top 21px
   @media only screen and (min-width 1631px)
     margin-top 26px
-
-.skill:first-child
-  text-align center
-  margin-top 26px
-  @media only screen and (min-width 1631px)
-    margin-top 37px
-
-.skill__name
-  text-transform uppercase
-  font-size 26px
-  letter-spacing 2px
-  margin-bottom 9px
-  @media only screen and (min-width 1631px)
-    font-size 39px
-    letter-spacing 1px
-
-.skill__points
-  margin-top 0
-  padding-left 0
-  @media only screen and (min-width 1631px)
-    margin 11px 0 26px 0
-
-.skill__point
-  width 18px
-  height 18px
-  border-radius 18px
-  padding-right 0
-  margin-right 8px
-  @media only screen and (min-width 1631px)
-    width 28px
-    height 28px
-    margin-right 11px
-
-.skill__point_on
-  list-style none
-  display inline-block
-  background-color #3d6cb0
-
-.skill__point_off
-  list-style none
-  display inline-block
-  background-color #e6e6e6
+  &:first-child
+    text-align center
+    margin-top 26px
+    @media only screen and (min-width 1631px)
+      margin-top 37px
+  &__name
+    text-transform uppercase
+    font-size 26px
+    letter-spacing 2px
+    margin-bottom 9px
+    @media only screen and (min-width 1631px)
+      font-size 39px
+      letter-spacing 1px
+  &__points
+    margin-top 0
+    padding-left 0
+    @media only screen and (min-width 1631px)
+      margin 11px 0 26px 0
+  &__point
+    list-style none
+    display inline-block
+    width 18px
+    height 18px
+    border-radius 18px
+    padding-right 0
+    margin-right 8px
+    @media only screen and (min-width 1631px)
+      width 28px
+      height 28px
+      margin-right 11px
+    &_on
+      background-color #3d6cb0
+    &_off
+      background-color #e6e6e6

@@ -1,144 +1,128 @@
 .section-header
   position relative
-
-.section-header__icon
-  display inline-block
-  vertical-align middle
-  position relative
-  z-index 10
-  background url(./sprites/sprites.png) no-repeat
-  @media only screen and (min-width 1631px)
-    background url(./sprites/sprites-1920.png) no-repeat
-
-.section-header__icon_profile
-  background-position 0 0
-  width 82px
-  height 79px
-  @media only screen and (min-width 1631px)
-    background-position 0 0
-    width 116px
-    height 112px
-
-.section-header__icon_contact
-  background-position -100px 0
-  width 79px
-  height 79px
-  @media only screen and (min-width 1631px)
-    background-position -124px -1px
-    width 112px
-    height 112px
-
-.section-header__icon_skills
-  background-position -200px 0
-  width 79px
-  height 79px
-  @media only screen and (min-width 1631px)
-    background-position -250px 0
-    width 112px
-    height 112px
-
-.section-header__icon_education
-  background-position -300px 0
-  width 82px
-  height 80px
-  @media only screen and (min-width 1631px)
-    background-position 0 -151px
-    width 115px
-    height 112px
-
-.section-header__icon_experience
-  background-position -400px 0
-  width 85px
-  height 83px
-  @media only screen and (min-width 1631px)
-    background-position -121px -152px
-    width 119px
-    height 115px
-
-.section-header__icon_software
-  background-position -500px 0
-  width 82px
-  height 80px
-  @media only screen and (min-width 1631px)
-    background-position -250px -151px
-    width 115px
-    height 112px
-
-.section-header__name
-  color #3d6cb0
-  font-size 46px
-  text-transform uppercase
-  display inline-block
-  vertical-align middle
-  position relative
-  z-index 10
-  @media only screen and (min-width: 1631px)
-    font-size 64px
-
-.section-header__name_position_left-column
-  padding-left 5px
-  @media only screen and (min-width: 1631px)
-    padding-left 10px
-
-.section-header__name_position_right-column
-  padding-left 15px
-  @media only screen and (min-width: 1631px)
-    padding-left 24px
-
-.section-header__line
-  background-color #3d6cb0
-  height 6px
-  box-sizing border-box
-  display inline-block
-  width 100%
-  position absolute
-  z-index 0
-  top 0
-  bottom 0
-  left 0
-  margin auto
-  @media only screen and (min-width 1631px)
+  &__icon
+    display inline-block
+    vertical-align middle
+    position relative
+    z-index 10
+    background url(./sprites/sprites.png) no-repeat
+    @media only screen and (min-width 1631px)
+      background url(./sprites/sprites-1920.png) no-repeat
+  &__icon
+    &_profile
+      background-position 0 0
+      width 82px
+      height 79px
+      @media only screen and (min-width 1631px)
+        background-position 0 0
+        width 116px
+        height 112px
+    &_contact
+      background-position -100px 0
+      width 79px
+      height 79px
+      @media only screen and (min-width 1631px)
+        background-position -124px -1px
+        width 112px
+        height 112px
+    &_skills
+      background-position -200px 0
+      width 79px
+      height 79px
+      @media only screen and (min-width 1631px)
+        background-position -250px 0
+        width 112px
+        height 112px
+    &_education
+      background-position -300px 0
+      width 82px
+      height 80px
+      @media only screen and (min-width 1631px)
+        background-position 0 -151px
+        width 115px
+        height 112px
+    &_experience
+      background-position -400px 0
+      width 85px
+      height 83px
+      @media only screen and (min-width 1631px)
+        background-position -121px -152px
+        width 119px
+        height 115px
+    &_software
+      background-position -500px 0
+      width 82px
+      height 80px
+      @media only screen and (min-width 1631px)
+        background-position -250px -151px
+        width 115px
+        height 112px
+  &__name
+    color #3d6cb0
+    font-size 46px
+    text-transform uppercase
+    display inline-block
+    vertical-align middle
+    position relative
+    z-index 10
+    @media only screen and (min-width: 1631px)
+      font-size 64px
+    &_position
+      &_left-column
+        padding-left 5px
+        @media only screen and (min-width: 1631px)
+          padding-left 10px
+      &_right-column
+        padding-left 15px
+        @media only screen and (min-width: 1631px)
+          padding-left 24px
+  &__line
     background-color #3d6cb0
-    height 9px
-
-.section-header__buffer-line
-  background-color white
-  height 20px
-  box-sizing border-box
-  display inline-block
-  position absolute
-  z-index 5
-  top 0
-  bottom 0
-  left 0
-  margin auto
-
-.section-header__buffer-line_profile
-  width 270px
-  @media only screen and (min-width 1631px)
-    width 379px
-
-.section-header__buffer-line_contact
-  width 292px
-  @media only screen and (min-width 1631px)
-    width 410px
-
-.section-header__buffer-line_skills
-  width 240px
-  @media only screen and (min-width 1631px)
-    width 338px
-
-.section-header__buffer-line_education
-  width 354px
-  @media only screen and (min-width 1631px)
-    width 499px
-
-.section-header__buffer-line_experience
-  width 355px
-  @media only screen and (min-width 1631px)
-    width 500px
-
-.section-header__buffer-line_software
-  width 354px
-  @media only screen and (min-width 1631px)
-    width 499px
+    height 6px
+    box-sizing border-box
+    display inline-block
+    width 100%
+    position absolute
+    z-index 0
+    top 0
+    bottom 0
+    left 0
+    margin auto
+    @media only screen and (min-width 1631px)
+      background-color #3d6cb0
+      height 9px
+  &__buffer-line
+    background-color white
+    height 20px
+    box-sizing border-box
+    display inline-block
+    position absolute
+    z-index 5
+    top 0
+    bottom 0
+    left 0
+    margin auto
+    &_profile
+      width 270px
+      @media only screen and (min-width 1631px)
+        width 379px
+    &_contact
+      width 292px
+      @media only screen and (min-width 1631px)
+        width 410px
+    &_skills
+      width 240px
+      @media only screen and (min-width 1631px)
+        width 338px
+    &_education
+      width 354px
+      @media only screen and (min-width 1631px)
+        width 499px
+    &_experience
+      width 355px
+      @media only screen and (min-width 1631px)
+        width 500px
+    &_software
+      width 354px
+      @media only screen and (min-width 1631px)
+        width 499px
