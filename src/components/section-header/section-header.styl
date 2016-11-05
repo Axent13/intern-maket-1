@@ -1,3 +1,8 @@
+iconInfo($xPosition, $yPosition, $width, $height)
+  background-position $xPosition $yPosition
+  width $width
+  height $height
+
 .section-header
   position relative
   &__icon
@@ -10,53 +15,29 @@
       background url(./sprites/sprites-1920.png) no-repeat
   &__icon
     &_profile
-      background-position 0 0
-      width 82px
-      height 79px
+      iconInfo(0, 0, 82px, 79px)
       @media only screen and (min-width 1631px)
-        background-position 0 0
-        width 116px
-        height 112px
+        iconInfo(0, 0, 116px, 112px)
     &_contact
-      background-position -100px 0
-      width 79px
-      height 79px
+      iconInfo(-100px, 0, 79px, 79px)
       @media only screen and (min-width 1631px)
-        background-position -124px -1px
-        width 112px
-        height 112px
+        iconInfo(-124px, -1px, 112px, 112px)
     &_skills
-      background-position -200px 0
-      width 79px
-      height 79px
+      iconInfo(-200px, 0, 79px, 79px)
       @media only screen and (min-width 1631px)
-        background-position -250px 0
-        width 112px
-        height 112px
+        iconInfo(-250px, 0, 112px, 112px)
     &_education
-      background-position -300px 0
-      width 82px
-      height 80px
+      iconInfo(-300px, 0, 82px, 80px)
       @media only screen and (min-width 1631px)
-        background-position 0 -151px
-        width 115px
-        height 112px
+        iconInfo(0, -151px, 115px, 112px)
     &_experience
-      background-position -400px 0
-      width 85px
-      height 83px
+      iconInfo(-400px, 0, 85px, 83px)
       @media only screen and (min-width 1631px)
-        background-position -121px -152px
-        width 119px
-        height 115px
+        iconInfo(-121px, -152px, 119px, 115px)
     &_software
-      background-position -500px 0
-      width 82px
-      height 80px
+      iconInfo(-500px, 0, 82px, 80px)
       @media only screen and (min-width 1631px)
-        background-position -250px -151px
-        width 115px
-        height 112px
+        iconInfo(-250px, -151px, 115px, 112px)
   &__name
     color #3d6cb0
     font-size 46px
