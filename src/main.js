@@ -1,14 +1,4 @@
 import './fonts/fonts.styl';
 import './index.styl';
-import './components/section-header/section-header.styl';
-import './components/logo/logo.styl';
-import './components/logo/person-info/person-info.styl';
-import './components/profile/profile.styl';
-import './components/contact/contact.styl';
-import './components/contact/table/table.styl';
-import './components/skills/skills.styl';
-import './components/skills/skill/skill.styl';
-import './components/list/list.styl';
-import './components/education/education.styl';
-import './components/experience/experience.styl';
-import './components/software/software.styl';
+
+require.context("./components", true, /.styl$/);
