@@ -1,6 +1,6 @@
 mixin addSoftwareItem(softwareName, progress)
     .software__level
-        p.software__name.font-regular #{softwareName}
+        p.software__name #{softwareName}
         .software__progress-bar
             div(class = "software__amount-of-progress" style = "width: " + progress + "%")
 
