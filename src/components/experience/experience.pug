@@ -1,10 +1,11 @@
 include ../section-header/section-header.pug
 include ../list/list.pug
 
-section.experience
-    +section-header('experience', 'right-column')
-    .list.experience__list 
-        - var i = 0
-        while i < 3
-            +list('experience')
-            - i += 1
+mixin experience()
+    section.experience
+        +section-header('experience', 'right-column')
+        .list.experience__list
+            - var i = 0
+            while i < 3
+                +list('experience')
+                - i += 1

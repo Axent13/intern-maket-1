@@ -1,4 +1,5 @@
-.person-info
-    p.person-info__name Name here
-    p.person-info__surname Surname
-    p.person-info__job Graphic designer
+mixin person-info(personName, personSurname, personJob)
+    .person-info
+        p.person-info__name #{personName}
+        p.person-info__surname #{personSurname}
+        p.person-info__job #{personJob}

@@ -1,10 +1,11 @@
 include ../section-header/section-header.pug
 include ../list/list.pug
 
-section.education
-    +section-header('education', 'right-column')
-    .list.education__list 
-        - var i = 0
-        while i < 4
-            +list('education')
-            - i += 1
+mixin education()
+    section.education
+        +section-header('education', 'right-column')
+        .list.education__list
+            - var i = 0
+            while i < 4
+                +list('education')
+                - i += 1

@@ -1,13 +1,14 @@
-.table
-    .table__row
-        .table__left-cell Address
-        .table__right-cell Main Street, City
-    .table__row
-        .table__left-cell E-mail
-        .table__right-cell contact@domain.com
-    .table__row
-        .table__left-cell Phone
-        .table__right-cell 8-800-555-3535
-    .table__row
-        .table__left-cell Website
-        .table__right-cell www.yourweb.com
+mixin table(address, email, phone, website)
+    .table
+        .table__row
+            .table__left-cell Address
+            .table__right-cell #{address}
+        .table__row
+            .table__left-cell E-mail
+            .table__right-cell #{email}
+        .table__row
+            .table__left-cell Phone
+            .table__right-cell #{phone}
+        .table__row
+            .table__left-cell Website
+            .table__right-cell #{website}

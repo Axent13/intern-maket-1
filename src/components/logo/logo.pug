@@ -1,5 +1,7 @@
-section.logo
-    .logo__circle
-        .logo__round
-    include ../person-info/person-info.pug
-        
+include ../person-info/person-info.pug
+
+mixin logo()
+    section.logo
+        .logo__circle
+            .logo__round
+        +person-info('Name Here', "Surname", "Graphic designer")
