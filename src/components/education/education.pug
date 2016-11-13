@@ -2,9 +2,9 @@ include ../section-header/section-header.pug
 include ../list/list.pug
 
 section.education
-    +createHeader('education', 'right-column')
+    +section-header('education', 'right-column')
     .list.education__list 
         - var i = 0
         while i < 4
-            +addEducationListItem()
+            +list('education')
             - i += 1

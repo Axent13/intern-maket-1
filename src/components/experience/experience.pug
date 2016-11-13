@@ -2,9 +2,9 @@ include ../section-header/section-header.pug
 include ../list/list.pug
 
 section.experience
-    +createHeader('experience', 'right-column')
+    +section-header('experience', 'right-column')
     .list.experience__list 
         - var i = 0
         while i < 3
-            +addExperienceListItem()
+            +list('experience')
             - i += 1

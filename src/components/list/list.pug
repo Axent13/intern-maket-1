@@ -1,15 +1,15 @@
-mixin addEducationListItem()
-    .list__point
-    .list__item
-        .list__item-name.list__item-name_color_blue Master degree
-        .list__period // Feb 2011 - Jun 2014
-        .list__item-subname University name
-        p.list__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
-
-mixin addExperienceListItem()
-    .list__point
-    .list__item
-        .list__item-name.list__item-name_color_black Company name
-        .list__period // Feb 2011 - Jun 2014
-        .list__item-subname Your job here
-        p.list__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+mixin list(componentName)
+    if componentName === 'education'
+        .list__point
+        .list__item
+            .list__item-name.list__item-name_color_blue Master degree
+            .list__period // Feb 2011 - Jun 2014
+            .list__item-subname University name
+            p.list__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+    else if componentName === 'experience'
+        .list__point
+        .list__item
+            .list__item-name.list__item-name_color_black Company name
+            .list__period // Feb 2011 - Jun 2014
+            .list__item-subname Your job here
+            p.list__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.

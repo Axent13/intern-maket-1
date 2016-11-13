@@ -1,4 +1,4 @@
-mixin addSoftwareItem(softwareName, progress)
+mixin software(softwareName, progress)
     .software__level
         p.software__name #{softwareName}
         .software__progress-bar
@@ -7,12 +7,12 @@ mixin addSoftwareItem(softwareName, progress)
 include ../section-header/section-header.pug
 
 section.software
-    +createHeader('software', right-column)
+    +section-header('software', 'right-column')
     .flex-container
-        +addSoftwareItem('Photoshop', 91)
-        +addSoftwareItem('Dreamweaver', 83)
-        +addSoftwareItem('Illustrator', 71)
-        +addSoftwareItem('After Effects', 61)
-        +addSoftwareItem('Indesign', 57)
-        +addSoftwareItem('HTML&CSS3', 91)
+        +software('Photoshop', 91)
+        +software('Dreamweaver', 83)
+        +software('Illustrator', 71)
+        +software('After Effects', 61)
+        +software('Indesign', 57)
+        +software('HTML&CSS3', 91)
 
