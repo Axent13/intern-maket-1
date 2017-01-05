@@ -5,7 +5,33 @@ mixin experience()
     section.experience
         +section-header('experience', 'right-column')
         .list.experience__list
-            - var i = 0
-            while i < 3
-                +list('experience')
-                - i += 1
+            each item in experienceData
+                +list(item.itemName, item.itemNameColor, item.periodStart, item.periodEnd, item.itemSubname, item.itemText)
+
+-
+    var experienceData = [
+        {
+            itemName: 'Company name',
+            itemNameColor: 'black',
+            periodStart: 'Feb 2011',
+            periodEnd: 'Jun 2014',
+            itemSubname: 'Your job here',
+            itemText: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+        },
+        {
+            itemName: 'Company name',
+            itemNameColor: 'black',
+            periodStart: 'Feb 2011',
+            periodEnd: 'Jun 2014',
+            itemSubname: 'Your job here',
+            itemText: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+        },
+        {
+            itemName: 'Company name',
+            itemNameColor: 'black',
+            periodStart: 'Feb 2011',
+            periodEnd: 'Jun 2014',
+            itemSubname: 'Your job here',
+            itemText: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+        }
+    ]

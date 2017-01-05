@@ -5,7 +5,41 @@ mixin education()
     section.education
         +section-header('education', 'right-column')
         .list.education__list
-            - var i = 0
-            while i < 4
-                +list('education')
-                - i += 1
+            each item in educationData
+                +list(item.itemName, item.itemNameColor, item.periodStart, item.periodEnd, item.itemSubname, item.itemText)
+
+-
+    var educationData = [
+        {
+            itemName: 'Master degree',
+            itemNameColor: 'blue',
+            periodStart: 'Feb 2011',
+            periodEnd: 'Jun 2014',
+            itemSubname: 'University name',
+            itemText: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+        },
+        {
+            itemName: 'Master degree',
+            itemNameColor: 'blue',
+            periodStart: 'Feb 2011',
+            periodEnd: 'Jun 2014',
+            itemSubname: 'University name',
+            itemText: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+        },
+        {
+            itemName: 'Master degree',
+            itemNameColor: 'blue',
+            periodStart: 'Feb 2011',
+            periodEnd: 'Jun 2014',
+            itemSubname: 'University name',
+            itemText: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+        },
+        {
+            itemName: 'Master degree',
+            itemNameColor: 'blue',
+            periodStart: 'Feb 2011',
+            periodEnd: 'Jun 2014',
+            itemSubname: 'University name',
+            itemText: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+        }
+    ]
