@@ -6,7 +6,7 @@ mixin experience()
         +section-header('experience', 'right-column')
         .list.experience__list
             each item in experienceData
-                +list(item.itemName, item.itemNameColor, item.periodStart, item.periodEnd, item.itemSubname, item.itemText)
+                +list(item)
 
 -
     var experienceData = [

@@ -1,7 +1,7 @@
-mixin list(itemName, itemNameColor, periodStart, periodEnd, itemSubname, itemText)
+mixin list(item)
     .list__point
     .list__item
-        div(class="list__item-name list__item-name_color_" + itemNameColor) #{itemName}
-        .list__period // #{periodStart} - #{periodEnd}
-        .list__item-subname #{itemSubname}
-        p.list__text #{itemText}
+        div(class="list__item-name list__item-name_color_" + item.itemNameColor) #{item.itemName}
+        .list__period // #{item.periodStart} - #{item.periodEnd}
+        .list__item-subname #{item.itemSubname}
+        p.list__text #{item.itemText}

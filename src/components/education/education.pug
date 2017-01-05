@@ -6,7 +6,7 @@ mixin education()
         +section-header('education', 'right-column')
         .list.education__list
             each item in educationData
-                +list(item.itemName, item.itemNameColor, item.periodStart, item.periodEnd, item.itemSubname, item.itemText)
+                +list(item)
 
 -
     var educationData = [
