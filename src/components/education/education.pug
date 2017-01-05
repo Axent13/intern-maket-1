@@ -3,7 +3,7 @@ include ../list/list.pug
 
 mixin education()
     section.education
-        +section-header('education', 'right-column')
+        +section-header('education', 'wide')
         .list.education__list
             each item in educationData
                 +list(item)

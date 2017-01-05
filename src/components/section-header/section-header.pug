@@ -1,6 +1,6 @@
-mixin section-header(componentName, position)
+mixin section-header(componentName, size)
     header.section-header
         div(class="section-header__icon section-header__icon_component_" + componentName)
-        div(class="section-header__name section-header__name_position_" + position) #{componentName}
+        div(class="section-header__name section-header__name_position_" + size) #{componentName}
         div(class="section-header__line")
         div(class="section-header__buffer-line section-header__buffer-line_component_" + componentName)
